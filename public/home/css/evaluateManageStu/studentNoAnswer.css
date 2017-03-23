@@ -1,0 +1,626 @@
+.hr_4 {
+    width: 100%;
+    height: 40px;
+}
+.hr_8 {
+    width: 100%;
+    height: 100px;
+}
+.hr_10 {
+    width: 100%;
+    height: 100px;
+}
+.clear_my{
+    clear: both;
+    width: 100%;
+    height: 10px;
+}
+.hide{
+    display: none;
+}
+.student_paper{
+    width: 1200px;
+    min-height: 1400px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.timer{
+    width: 110px;
+    height: 25px;
+    position: fixed;
+    top: 300px;
+    right: 300px;
+    background-color: #FE7600;
+    color: white;
+    border-radius: 4px;
+}
+.timer .icon-clock{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 2px;
+    background: url("/home/image/evaluateManageStu/clock.png") no-repeat;
+}
+.timer .time_limit{
+    width: 85px;
+    height: 25px;
+    font-size: 12px;
+    float: right;
+    text-align: right;
+    line-height: 25px;
+    margin-right: 3px;
+}
+.student_paper_top{
+    width: 875px;
+    height: 55px;
+    border-bottom: 2px solid #F5F5F5;
+    margin: 0 auto;
+}
+.student_paper_top_title{
+    width: 875px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_paper_top_type{
+    width: 200px;
+    height: 55px;
+    line-height: 70px;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-top: -55px;
+    float: right;
+}
+.student_paper_content{
+    width: 800px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+.student_paper_content_top{
+    width: 800px;
+    height: 80px;
+    margin: 0 auto;
+}
+/*.student_paper_content_top_left{*/
+    /*width: 800px;*/
+    /*height: 40px;*/
+    /*line-height: 50px;*/
+    /*text-align: left;*/
+    /*font-size: 16px;*/
+    /*color: rgb(51, 51, 51);*/
+/*}*/
+.student_paper_content_top_right{
+    width: 800px;
+    height: 80px;
+    line-height: 100px;
+    text-align: right;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_paper_content_bot{
+    width: 800px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+/* ===================== 单选题 ========================== */
+.student_paper_content_repeat_1,
+.student_paper_content_repeat_2{
+    width: 800px;
+    min-height: 210px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_paper_content_repeat_3{
+    width: 800px;
+    min-height: 50px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_paper_content_repeat_5{
+    width: 800px;
+    min-height: 120px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_paper_content_repeat_top{
+    width: 800px;
+    min-height: 30px;
+    margin-top: 20px;
+}
+.student_paper_content_repeat_top_question{
+    width: 800px;
+    min-height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.student_paper_content_repeat_top_question img{
+    max-width: 300px;
+}
+.student_paper_content_repeat_top_question div{
+    float: left;
+}
+.student_paper_content_repeat_1 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #209EEB;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_2 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FECE7F;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_3 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FE97A3;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_3 .student_paper_content_repeat_top_question .three input{
+    min-width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #5c5c5c;
+    padding: 0 40px;
+    height: 20px;
+}
+.student_paper_content_repeat_3 .student_paper_content_repeat_top_question .three img{
+    max-width: 300px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #84CCCA;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_5 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #C477D5;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_top_question .three{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.student_paper_content_repeat_top_question .three img{
+    max-width: 300px;
+}
+.student_paper_content_repeat_top_question .four{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    float: right;
+}
+.student_paper_content_repeat_cen{
+    width: 800px;
+    height: 160px;
+    margin: 0 auto;
+}
+.student_paper_content_repeat_5 .student_paper_content_repeat_cen{
+    width: 800px;
+    height: 70px;
+    margin: 0 auto;
+}
+.student_paper_content_repeat_5 .student_paper_content_repeat_cen img{
+    max-width: 300px;
+}
+.student_paper_content_repeat_cen_answer{
+    width: 800px;
+    height: 40px;
+    line-height: 40px;
+}
+.student_paper_content_repeat_cen_answer img{
+    max-width: 300px;
+}
+.student_paper_content_repeat_cen_answer input{
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 12px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.student_paper_content_repeat_cen_answer div{
+    float: left;
+}
+.student_paper_content_repeat_cen_answer .one{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 27px;
+}
+.student_paper_content_repeat_cen_answer .two{
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.has_choose{
+    background: url("/home/image/evaluateManageTea/haschoose.png") no-repeat;
+}
+.no_choose{
+    background: url("/home/image/evaluateManageTea/nochoose.png") no-repeat;
+}
+/* ========= 解答题 ========= */
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen{
+    width: 800px;
+    height: 150px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen img{
+    max-width: 300px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen div:first-child{
+    border-top: none;
+    word-wrap: break-word;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen_answer{
+    width: 800px;
+    min-height: 140px;
+    border-top: 2px dashed #cfcfcf;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen_answer_top{
+    width: 770px;
+    color: rgb(102, 102, 102);
+    margin-left: 30px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen_answer_bot{
+    width: 405px;
+    height: 60px;
+    color: rgb(102, 102, 102);
+    margin-left: 43px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen_answer_bot textarea{
+    width: 405px;
+    height: 60px;
+    resize: none;
+    color: rgb(102, 102, 102);
+}
+.question_detail_score_submit{
+    width: 140px;
+    height: 24px;
+    margin: 20px auto 0;
+}
+.question_detail_score_submit_save{
+    width: 50px;
+    height: 24px;
+    color: #FFF;
+    font-size: 12px;
+    background-color: #209EEA;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+    float: left;
+}
+.question_detail_score_submit_submit{
+    width: 50px;
+    height: 24px;
+    color: #FFF;
+    font-size: 12px;
+    background-color: #209EEA;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+    float: right;
+}
+
+/*          imgZoom            */
+.imgZoom {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10001;
+}
+
+.imgZoom img {
+    max-height: 95%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.imgZoom_close {
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 100012
+}
+
+.imgZoom_close:hover {
+    border-color: #B9E3FA;
+    color: #B9E3FA;
+}
+/* ======= 测试报告 start ======= */
+.shadow{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ABABAB;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 1;
+}
+.report{
+    width: 600px;
+    height: 520px;
+    background-color: #FFF;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -260px;
+}
+.report_top{
+    width: 600px;
+    height: 70px;
+}
+.report_top_close{
+    width: 600px;
+    height: 30px;
+}
+.report_top_close div{
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.report_top_title{
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+.report_center{
+    width: 440px;
+    height: 120px;
+    margin: 50px auto 0;
+}
+.report_center_right{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:2px solid #B3EB99;
+    float: left;
+}
+.report_center_error{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:2px solid #F2A3A5;
+    float: left;
+    margin-left: 30px;
+}
+.report_center_no_answer{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:2px solid #F9D335;
+    float: left;
+    margin-left: 30px;
+}
+.report_center_right_top,
+.report_center_error_top,
+.report_center_no_answer_top{
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin: 30px auto 0;
+}
+.report_center_right_bot,
+.report_center_error_bot,
+.report_center_no_answer_bot{
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin: 0 auto;
+}
+.report_tip{
+    width: 600px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
+.report_count{
+    width: 600px;
+    height: 40px;
+}
+.report_count_left{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    float: left;
+    margin-left: 90px;
+}
+.report_count_right{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    float: right;
+    margin-right: 30px;
+}
+.report_explain{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #209EEA;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.report_bot_tip{
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    text-align: center;
+}
+/* ======= 测试报告 end ======= */
+/* ===== 成绩提示框 start ===== */
+.notice{
+    width: 360px;
+    height: 220px;
+    background-color: #FFF;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -180px;
+    margin-top: -110px;
+}
+.notice .top{
+    width: 360px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+.notice .cen{
+    width: 360px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(103, 103, 103);
+    font-size: 16px;
+}
+.notice .bot{
+    width: 60px;
+    height: 30px;
+    background-color: #209EEA;
+    color: #FFF;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* ===== 成绩提示框 end ===== */
+
+/*      loading      */
+
+.spinner {
+    margin: 200px auto;
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.spinner > div {
+    background-color: #2CAEFC;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+
+    -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+    animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+       }
+}

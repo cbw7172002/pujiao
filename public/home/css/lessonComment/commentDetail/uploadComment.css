@@ -1,0 +1,380 @@
+@media screen and (max-width:1200px) {
+    .upload_screen {
+        clear: both;
+        height: 50px;
+    }
+}
+
+.uploadComment {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.uploadComment img { display: block; }
+
+.crumbs {
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 15px 0px 10px;
+	color: gray;
+}
+.crumbs a { color: gray; }
+
+
+.uploadComment_content {
+	width: 100%;
+	min-height: 542px;
+	margin: 0 auto;
+	background: white;
+}
+
+
+.add_video {
+	width: 800px;
+	height: 110px;
+	margin: 0px 0px 0px 44px;
+	color: rgb(153, 153, 153);
+	font-size: 16px;
+}
+
+.add_video_top {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: black;
+	font-size: 16px;
+}
+
+.add_video_top div {
+	float: left;
+	margin-right: 25px;
+}
+
+.add_video_top div:nth-child(2) {
+	background: #1A9FEB;
+	width: 180px;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	color: white;
+	margin-right: 50px;
+	cursor: pointer;
+}
+
+.fileButton {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: none;
+	filter:alpha(opacity=50);
+	-moz-opacity: 0.5;          
+	-khtml-opacity: 0.5;       
+	opacity: 0.5;        
+}
+
+.add_video_tip {
+	margin-left: 85px;
+	margin-top: 20px;
+}
+
+.add_video_success {
+	
+	margin-left: 137px;
+	margin-top: 30px;
+}
+
+
+
+.add_video_loading {
+	margin-left: 85px;
+	margin-top: 25px;
+	width: 417px;
+	height: 45px;
+}
+
+.progress_bar {
+	width: 415px;
+	height: 10px;
+	border: 1px solid silver;
+}
+.progress_bar div {
+	background: #1A9FEB;
+	height: 100%;
+}
+
+.progress_tip {
+	float: left;
+	margin-top: 14px;
+	margin-left: 30px;
+	font-size: 13px;
+}
+
+.progress_close {
+	color: gray;
+	float: right;
+	margin-top: 15px;
+	margin-right: 5px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.progress_close:hover {
+	color: #1A9FEB;
+}
+
+
+
+
+
+.suit_level {
+	width: 853px;
+	height: 150px;
+	margin: 30px 0px 0px 44px;
+	font-size: 15px;
+}
+
+.suit_level_title {
+	height: 30px;
+	width: 85px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.suit_level_content {
+	width: 768px;
+	height: 92px;
+	margin-top: 30px;
+}
+
+.suit_level_content div {
+	width: 118px;
+	height: 34px;
+	border: 1px solid silver;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+	line-height: 34px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin-right: 42px;
+	margin-bottom: 20px;
+}
+.suit_level_content div:nth-child(5n) {
+	margin: 0;
+}
+.checked {
+	background-image: url(/home/image/lessonComment/commentDetail/upload_check.png);
+}
+
+
+.suit_level_tip {
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: left;
+	color:red;
+}
+
+
+
+
+.content_bottom {
+	width: 300px;
+	height: 90px;
+	margin: 70px auto 0;
+}
+
+.content_bottom_provision {
+	width: 77%;
+	height: 30px;
+	line-height: 30px;
+	color: rgb(134, 134, 134);
+	text-align: center;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.content_bottom_provision input[type=checkbox] {
+	display: block;
+	float: left;
+	margin-top: 8px;
+}
+
+.content_bottom_provision a {
+	display: block;
+	float: right;
+	color: #1A9FEB;
+}
+.content_bottom_provision a:hover {
+	text-decoration: underline;
+}
+
+
+.content_bottom_button {
+	width: 180px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	margin: 15px auto 0;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+
+
+
+/************************************** 购买上传视频 ****************************************/
+
+.works_title {
+	width: 800px;
+	height: 80px;
+	margin: 0px 0px 0px 44px;
+	font-size: 16px;
+}
+
+.works_title span {
+	color: red;
+	position: relative;
+	left: -3px;
+}
+
+.works_title input[type=text] {
+	display: block;
+	float: left;
+	width: 390px;
+	height: 36px;
+	border: 1px solid silver;
+	background: none;
+	font-family: 微软雅黑;
+	padding: 0px 45px 0px 10px;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+.works_title_number {
+	color: gray;
+	height: 36px;
+	line-height: 36px;
+	float: right;
+	position: relative;
+	right: 280px;
+}
+
+
+
+.works_des {
+	width: 800px;
+	height: 230px;
+	margin: 0px 0px 0px 44px;
+	font-size: 16px;
+}
+
+.works_des textarea {
+	width: 420px;
+	height: 190px;
+	display: block;
+	float: left;
+	border: 1px solid silver;
+	background: none;
+	resize: none;
+	font-family: 微软雅黑;
+	padding: 10px 15px 0px 10px;
+	border-bottom: none;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+.works_des_number {
+	width: 440px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	color: gray;
+	font-size: 15px;
+	border: 1px solid silver;
+	border-top: none;
+	float: left;
+	padding-right: 5px;
+	margin-top: -1px;
+}
+
+
+
+
+.bottom_tip {
+	width: 100%;
+	height: 80px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 12px;
+	color: gray;
+}
+
+/************************************** 购买上传视频 ****************************************/
+
+
+
+
+.uploadWarning {
+	margin: 10px 0 0 20px;
+	color: red; 
+	float: left;
+	font-size: 14px;
+}
+
+.score{
+	width: 800px;
+	height: 310px;
+	margin-top: 10px;
+	background: white none repeat scroll 0 0;
+}
+.score .tip{
+	color: rgb(34,34,34);
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	width: 90%;
+	text-align: left;
+}
+.score .bot{
+	color: black;
+	font-size: 16px;
+	color: rgb(153,153,153);
+	width: 90%;
+	text-align: left;
+	margin: 30px auto;
+	height: 25px;
+	line-height: 25px;
+}
+.score .bot .left{
+	width: 80px;
+	float: left;
+}
+.score .bot .star{
+	width: 24px;
+	height: 24px;
+	display: block;
+	float: left;
+	margin-left: 35px;
+}
+.no-light{
+	background-image: url("/home/image/lessonComment/commentDetail/pingfen-hui.png");
+}
+.light{
+	background-image: url("/home/image/lessonComment/commentDetail/pingfen.png");
+}
+.score .bot .right{
+	width: 80px;
+	float: left;
+	margin-left: 180px;
+	color: rgb(255,36,36);
+	font-size:16px;
+}
+.score .scoreWarning{
+	color: red;
+	font-size: 14px;
+	width: 90%;
+	margin: 0 auto;
+}

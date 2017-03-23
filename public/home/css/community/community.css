@@ -1,0 +1,795 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+}
+
+.body{
+    width:100%;
+    height:auto;
+    background: #FFFFFF;
+}
+
+.background{
+    width:100%;
+    height:auto;
+    background: #FFFFFF;
+}
+
+#kongbai{
+    width:100%;
+    background: #FFFFFF;
+}
+
+.main_img{
+    width:1200px;
+    height:220px;
+    margin: 0 auto;
+}
+
+
+
+/*名师 新闻 模块*/
+.teacher_new{
+    width:1200px;
+    /*height:1225px;*/
+    min-height:1400px;
+    margin: 0 auto;
+    /*background: #eeeeee;*/
+}
+
+
+/*****************************    左部分 名师    *******************************/
+
+.teacher{
+    width:740px;
+    /*height:1225px;*/
+    min-height:1405px;
+    float: left;
+    /*background: pink;*/
+}
+
+.title_more{
+    width:740px;
+    height:45px;
+    border-bottom: 4px solid #eeeeee;
+    /*background: #eeeeee;*/
+}
+
+
+.title_more .teacher_title{
+    width:300px;
+    height:45px;
+    float: left;
+}
+
+.title_more .teacher_title span{
+    width:40px;
+    height:45px;
+    font-size: 18px;
+    float: left;
+    display: block;
+    color:rgb(34,34,34);
+    cursor: pointer;
+    font-family:"微软雅黑";
+}
+.title_more .teacher_title span:nth-child(2){
+    margin-left:20px;
+}
+.title_more .teacher_title span:nth-child(3){
+    margin-left:20px;
+    width:80px;
+}
+
+.title_more .teacher_more{
+    width:265px;
+    height:45px;
+    float: right;
+}
+.title_more .teacher_more select{
+    width:300px;
+    height:40px;
+    font-size: 16px;
+    font-family:"微软雅黑";
+}
+.bottom_line{
+    border-bottom: 4px solid #209EEA;
+    /*border-bottom: 4px solid #363F4E;*/
+    /*border-bottom:4px solid rgb(215,12,24);*/
+
+}
+
+/*名师内容列表*/
+.teacher_content{
+    width:740px;
+    height:1210px;
+    /*background: pink;*/
+}
+
+/*名师内容详细*/
+.teacher_content_detail{
+    width:740px;
+    /*height:216px;*/
+    height:auto;
+    padding:20px 0;
+    float:left;
+    border-bottom: 2px solid #eeeeee;
+}
+/*!*头像*!*/
+.teacher_content_img{
+    width:60px;
+    height:60px;
+    float: left;
+}
+.teacher_content_detail .content_detail_right{
+    width: 90%;
+    height:100%;
+    float:left;
+    margin-left:14px;
+    /*background: silver;*/
+}
+.teacher_content_detail .content_detail_right .from_type{
+    width: 100%;
+    height:28px;
+    line-height:28px;
+    font-size:14px;
+    color:rgb(153,153,153);
+}
+.content_detail_right .from_type .from{
+    width:60px;
+    height:28px;
+    line-height:28px;
+}
+.content_detail_right .from_type .type{
+    width:87.9879%;
+    height:28px;
+    line-height:28px;
+    margin-left:14px;
+}
+.teacher_content_detail .content_detail_right .content_detail_question{
+    width:100%;
+    height:25px;
+    line-height:25px;
+    margin-top:10px;
+    font-weight: 500;
+    font-size:18px;
+    color:rgb(53,53,53);
+    cursor: pointer;
+}
+.teacher_content_detail .content_detail_right .content_detail_author{
+    width:100%;
+    height:20px;
+    margin-top:20px;
+}
+.content_detail_right .content_detail_author .author{
+    width:20.2702%;
+    height:20px;
+    font-size:16px;
+    color:rgb(102,102,102);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+.content_detail_right .content_detail_author .answer{
+    width:0.7507%;
+    height:20px;
+    font-size:14px;
+    color:rgb(153,153,153);
+    margin-left:40px;
+}
+.teacher_content_detail .content_detail_right .content_detail_answer{
+    width:80.3303%;
+    /*height:70px;*/
+    height:60px;
+    overflow: hidden;
+    font-size:14px;
+    color:rgb(102,102,102);
+    margin-top:10px;
+    letter-spacing:1px;
+    line-height:32px;
+}
+.teacher_content_detail .content_detail_right .content_detail_info{
+    width:100%;
+    height:20px;
+    margin-top:14px;
+}
+.content_detail_right .content_detail_info .scan{
+    width:77.1771%;
+    height:20px;
+    font-size:14px;
+    color:rgb(153,153,153);
+    text-align: right;
+    float:left;
+}
+.content_detail_info .scan span:first-child{
+    margin-right:14px;
+}
+
+.content_detail_right .content_detail_info .zan{
+    width:22.8228%;
+    height:20px;
+    font-size:14px;
+    color:rgb(153,153,153);
+    text-align: right;
+    float:left;
+}
+.content_detail_info .zan span:first-child{
+    margin-right:14px;
+}
+/*!*文字信息*!*/
+/*.teacher_content_font{*/
+/*width:402px;*/
+/*height:200px;*/
+/*float: right;*/
+/*margin-top: 15px;*/
+/*!*background: pink;*!*/
+/*}*/
+
+/*!*姓名*!*/
+/*.content_name{*/
+/*width:402px;*/
+/*height:60px;*/
+/*}*/
+/*.content_name div{*/
+/*color:rgb(34,34,34);*/
+/*font-size:20px;*/
+/*font-family:"微软雅黑";*/
+/*padding-top: 17px;*/
+/*}*/
+
+/*!*学校*!*/
+/*.content_school{*/
+/*width:402px;*/
+/*height:50px;*/
+/*}*/
+/*.content_school div{*/
+/*color:rgb(34,34,34);*/
+/*font-size:18px;*/
+/*font-family:"微软雅黑";*/
+/*padding-top: 8px;*/
+/*}*/
+
+/*!*介绍*!*/
+/*.content_introduce{*/
+/*width:402px;*/
+/*height:80px;*/
+/*word-break: break-all;*/
+/*}*/
+/*.content_introduce div{*/
+/*color:rgb(153,153,153);*/
+/*font-size:16px;*/
+/*font-family:"微软雅黑";*/
+/*line-height:30px;*/
+/*word-break: break-all;*/
+/*!*display:block;*/
+/*white-space:nowrap;*/
+/*overflow:hidden;*/
+/*text-overflow:ellipsis;*!*/
+/*}*/
+.question_msg{
+    width:740px;
+    height:250px;
+}
+.question_msg_top{
+    width:100%;
+    height:200px;
+    font-size: 18px;
+    line-height: 200px;
+    text-align: center;
+    color:rgb(102,102,102);
+}
+.question_msg_fot{
+    width:100%;
+    height:48px;
+    font-size: 16px;
+    color:rgb(51,51,51);
+    border-bottom:2px solid #eeeeee;
+}
+
+
+/*****************************    右部分 新闻资讯    *******************************/
+
+.new{
+    width:400px;
+    min-height:1300px;
+    float: right;
+    /*background: pink;*/
+}
+.new .online_teacher{
+    width:100%;
+    height:618px;
+}
+
+.new .online_teacher .online_teacher_content{
+    width:100%;
+    height:573px;
+    float:left;
+}
+.online_teacher_content .teacher_content_item{
+    width:100%;
+    height:513px;
+    float:left;
+    margin:30px auto;
+}
+
+.teacher_content_item .content_item{
+    width:100%;
+    height:60px;
+    float:left;
+    margin-bottom: 30px;
+}
+.teacher_content_item .content_item .avatar_realname_left{
+    float:left;
+    width:50%;
+    height:60px;
+}
+.content_item .avatar_realname_left .avatar_left{
+    width:60px;
+    height:60px;
+    border-radius: 150px;
+    float:left;
+}
+.avatar_left img{
+    border-radius: 150px;
+}
+.content_item .avatar_realname_left .realname_middle{
+    width:120px;
+    height:60px;
+    float:right;
+}
+.avatar_realname_left .realname_middle .realname{
+    width:100%;
+    height:25px;
+    line-height:25px;
+    font-size:16px;
+    color:rgb(34,34,34);
+}
+
+.avatar_realname_left .realname_middle .college{
+    width:100%;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    color:rgb(153,153,153);
+    margin-top:10px;
+}
+
+
+.realname_middle_name{
+    width:120px;
+    height:60px;
+    line-height: 60px;
+    color:rgb(51,51,51);
+    font-size: 16px;
+    /*background: #ccc;*/
+}
+
+
+.teacher_content_item .content_item .ask_question_right{
+    width:65px;
+    height:60px;
+    float:right;
+}
+.ask_question_right .ask_question{
+    width:58px;
+    height:28px;
+    border:1px solid rgb(235,104,119);
+    border-radius: 5px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 500;
+    margin-left:5px;
+    font-size:18px;
+    cursor: pointer;
+    color: rgb(235,104,119);
+}
+.ask_question_right .ask_number{
+    width:65px;
+    height:20px;
+    line-height: 20px;
+    font-size:14px;
+    text-align: right;
+    letter-spacing:1px;
+    margin-top:35px;
+    color: rgb(153,153,153);
+}
+
+
+
+
+
+.new_content{
+    width:360px;
+    height:80px;
+    /*background: #ffffff*/
+}
+
+.new_content_top{
+    width:360px;
+    height:33px;
+}
+
+/*灰色背景*/
+.new_content_back{
+    width:33px;
+    height: 33px;
+    text-align: center;
+    color:rgb(255,255,255);
+    /*background: #6C737D;*/
+    /*background: #209EEA;*/
+    background: #7cc2ed;
+    /*background: rgb(215,12,24);*/
+    line-height: 33px;
+}
+/*深灰色背景*/
+.new_content_back_deep{
+    width:33px;
+    height: 33px;
+    text-align: center;
+    color:rgb(255,255,255);
+    background: #363F4E;
+    line-height: 33px;
+}
+
+
+.new_content_down{
+    width:310px;
+    height:47px;
+    float: right;
+    color:rgb(34,34,34);
+    font-size:16px;
+    font-family:"微软雅黑";
+}
+
+
+.title_more2{
+    width:400px;
+    height:45px;
+    border-bottom: 4px solid #eeeeee;
+}
+
+.title_more2 .teacher_title{
+    width:100px;
+    height:45px;
+    float: left;
+}
+
+.title_more2 .teacher_title span{
+    float: left;
+    display: block;
+    font-size: 18px;
+    color:rgb(34,34,34);
+    font-family:"微软雅黑";
+}
+.title_more2 .teacher_more{
+    width:300px;
+    height:45px;
+    float: right;
+    text-align: right;
+    line-height:26px;
+}
+
+
+.title_more2 .teacher_more a span{
+    font-size: 16px;
+    /*color:rgb(28,165,234);*/
+    color:rgb(34,34,34);
+    font-family:"微软雅黑";
+}
+
+.more2_diff{
+    margin-top:10px;
+}
+/*数字图片*/
+.new_content_img{
+    width:42px;
+    height:46px;
+    background:url('../../../home/image/community/0.png') no-repeat;
+    position: relative;
+    top:16px;
+}
+.new_content_img div{
+    /*position: relative;*/
+    /*top:19px;*/
+    /*left:26px;*/
+    width:42px;
+    height:46px;
+    text-align: center;
+    padding-left: 3px;
+    padding-top: 3px;
+    line-height:40px;
+}
+
+
+/*文字*/
+.new_content_font{
+    width:310px;
+    height:47px;
+    float: right;
+    margin-left: 60px;
+    margin-top: 9px;
+    color:rgb(34,34,34);
+    font-size:16px;
+    font-family:"微软雅黑";
+    /*background: pink;*/
+    /*	display:block;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;*/
+}
+
+/*图片字体颜色*/
+.new_content_img div{
+    font-size: 20px;
+    color:#ffffff;
+    font-family:"微软雅黑";
+}
+
+.deep_blue{
+    background: #209EEA;
+}
+
+/*最新学员*/
+.newstudent{
+    width:1200px;
+    height:250px;
+    margin: 0 auto;
+    /*background: #eeeeee;*/
+}
+
+/*标题*/
+.newstudent_title{
+    width:1200px;
+    height:41px;
+    border-bottom: 4px solid #eeeeee;
+}
+.newstudent_title div{
+    width:72px;
+    height:41px;
+    font-size: 18px;
+    color:rgb(34,34,34);
+    font-family:"微软雅黑";
+    border-bottom: 4px solid #209eea;
+    /*border-bottom: 4px solid rgb(215,12,24);*/
+}
+
+/*列表*/
+.newstudent_detail{
+    width:1200px;
+    height:175px;
+    /*background: pink;*/
+}
+
+.newstudent_detail_content{
+    width:1055px;
+    height:120px;
+    float: left;
+    margin-top: 24px;
+    /*margin-left: 42px;*/
+    /*background: #eeeeee;*/
+}
+
+
+.newstudent_left{
+    width:72.5px;
+    height:175px;
+    float: left;
+}
+
+
+.newstudent_right{
+    width:72.5px;
+    height:175px;
+    float: right;
+}
+
+.newstudent_left_img{
+    position:relative;
+    top:60px;
+    cursor: pointer;
+}
+
+.newstudent_right_img{
+    position: relative;
+    top:60px;
+    left:42.5px;
+    cursor: pointer;
+}
+.newstudent_detail_content div:first-child{
+    margin-left:0px;
+}
+
+.newstudent_img_name{
+    width:84px;
+    height:120px;
+    float: left;
+    margin-left: 110px;
+    /*background: green;*/
+}
+
+.newstudent_img{
+    border-radius:50%;
+    overflow:hidden;
+    width:84px;
+    height:84px;
+}
+
+.newstudent_name{
+    width:84px;
+    height:36px;
+    font-size:14px;
+    text-align: center;
+    color:rgb(34,34,34);
+    font-family:"微软雅黑";
+
+    /*background: green;*/
+}
+
+.newstudent_name div{
+    position: relative;
+    top:12px;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+
+/*****************************    最热视频   *******************************/
+
+/*最热视频*/
+.hotvideo{
+    width:1200px;
+    min-height:268px;
+    margin: 0 auto;
+}
+
+
+.newstudent_video{
+    width:390px;
+    min-height:274px;
+    float: left;
+    padding-left: 10px;
+}
+
+
+
+
+
+.big_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+
+
+/*遮罩层*/
+.zhezhao{
+    width:390px;
+    height:50px;
+    position: relative;
+    top:-50px;
+    background:rgba(0,0,0,0.75);
+}
+
+.zhezhao span{
+    margin-left: 10px;
+    position: relative;
+    top:10px;
+    font-size: 18px;
+    color:#ffffff;
+    font-family:"微软雅黑";
+}
+
+/*弹出层*/
+.tanchuceng{
+    width:390px;
+    height:260px;
+    position: relative;
+    top:-260px;
+    background: rgb(0,0,0);
+    filter:alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.tanchuceng_font{
+    width:300px;
+    height:200px;
+    position: relative;
+    top:40px;
+    left:45px;
+    /*background: #eeeeee;*/
+    font-size: 20px;
+    color:#ffffff;
+    font-family:"微软雅黑";
+    text-indent:2em;
+    letter-spacing: 2px;
+}
+.tanchuceng span{
+    position: relative;
+    top:15px;
+}
+
+.hide{
+    display:none;
+}
+
+.pagecon{
+    width:740px;
+    height:35px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*撰写答案*/
+.makeanscon{
+    width:100%;
+    height:50px;
+}
+.makeans_btn{
+    width:80px;
+    height:28px;
+    background: #363F4E;
+    /*background: rgb(215,12,24);*/
+    line-height:28px;
+    text-align: center;
+    font-size: 14px;
+    color:#ffffff;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.woyaotiwen{
+    width:400px;
+    height:73px;
+    /*margin-left: 30px;*/
+}
+.woyaotiwen img{
+    margin-left: 20px;
+}
+
+
+/*热门视频*/
+
+.newstudent_content{
+    width:1200px;
+    height:192px;
+}
+
+.newstudent_videos{
+    width:285px;
+    height:192px;
+    float: left;
+    margin-left: 20px;
+    /*background: #eee;*/
+}
+
+.newstudent_content div:nth-child(1){
+    margin-left:0rem;
+}
+.newstudent_content div:nth-child(5){
+    margin-left:0rem;
+}
+.newstudent_content div:nth-child(9){
+    margin-left:0rem;
+}
+
+.zhezhaos{
+    width:285px;
+    height:38px;
+    position: relative;
+    top:-38px;
+    background:rgba(0,0,0,0.75);
+}
+
+.zhezhaos span{
+    margin-left: 20px;
+    position: relative;
+    top:10px;
+    font-size: 14px;
+    color:#ffffff;
+    font-family:"微软雅黑";
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+}
+.background{
+    width:100%;
+    /*height:2200px;*/
+    height:auto;
+    /*min-height:1450px;*/
+    background:#F5F5F5;
+}
+
+
+@media screen and (max-width:1200px) {
+    .screen1200 {
+        width: 100%;
+        height: 460px;
+        background: none;
+        clear: both;
+    }
+}
+
+
+
+/*主体div*/
+.main{
+    width:1200px;
+    /*height:1910px;*/
+    height:auto;
+    /*background: #eee;*/
+    margin: 0 auto;
+}
+
+/*面包屑*/
+.crumbs{
+    width:200px;
+    height:20px;
+    /*background: #ccc;*/
+}
+
+.crumbs a{
+    font-size:14px;
+    font-weight:bold;
+    /*color:#B0B0B0;*/
+    color:rgb(173,173,173);
+}
+.crumbs span{
+    /*color:#B0B0B0;*/
+    color:rgb(173,173,173);
+    font-weight:bold;
+    font-size:14px;
+}
+
+
+/*视频以及详情介绍*/
+.videodetail{
+    width:1200px;
+    height:515px;
+    margin:0 auto;
+    /*background: pink;*/
+}
+
+/*视频*/
+.video{
+    width:800px;
+    height:515px;
+    float: left;
+}
+
+/*详情*/
+.detail{
+    width:360px;
+    height:515px;
+    float: right;
+    background: #FFFFFF;
+}
+
+.detail_title{
+    width:340px;
+    height:58px;
+    /*margin-left: 10px;*/
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.detail_title div{
+    width:100%;
+    height:25px;
+    position: relative;
+    top:16px;
+    /*text-align: center;*/
+    margin-left: 38px;
+    font-size: 20px;
+    color:rgb(34,34,34);
+    font-family:"微软雅黑";
+}
+
+.content{
+    width:290px;
+    height:360px;
+    /*background: pink;*/
+    position: relative;
+    left:38px;
+    line-height:30px;
+    text-indent: 2em;
+    letter-spacing: 2px;
+    overflow-y: auto;
+}
+.content span{
+    font-size: 16px;
+    color:rgb(102,102,102);
+    line-height:30px;
+    /*font-family:"微软雅黑";*/
+}

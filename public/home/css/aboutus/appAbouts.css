@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .screen1200 {
+        width: 100%;
+        height: 100px;
+        background: none;
+        clear: both;
+    }
+}
+
+
+.background{
+    width: 100%;
+    min-height:200px;
+    background: #F5F5F5;
+}
+
+.main {
+    width: 100%;
+    min-height: 200px;
+    /*margin: 0 auto;*/
+}
+
+/*********** 右侧内容 ************/
+.main_right{
+    width: 100%;
+    min-height:200px;
+    background: #ffffff;
+}
+
+.main_right_content{
+    width: 100%;
+    height:200px;
+    /*background: #ccc;*/
+}
+
+/*.main_right_content2{*/
+    /*width:628px;*/
+    /*min-height:780px;*/
+    /*margin-top: 67px;*/
+    /*margin-left: 107px;*/
+    /*!*background: #ccc;*!*/
+/*}*/
+
+/*.main_right_content3{*/
+    /*width:628px;*/
+    /*min-height:780px;*/
+    /*margin-top: 67px;*/
+    /*margin-left: 107px;*/
+    /*!*background: #ccc;*!*/
+/*}*/
+
+/*.main_right_content4{*/
+    /*width:628px;*/
+    /*min-height:780px;*/
+    /*margin-top: 67px;*/
+    /*margin-left: 107px;*/
+    /*!*background: #ccc;*!*/
+/*}*/
+
+/*.main_right_content5{*/
+    /*width:628px;*/
+    /*min-height:780px;*/
+    /*margin-top: 67px;*/
+    /*margin-left: 107px;*/
+    /*!*background: #ccc;*!*/
+/*}*/
+
+/*.main_right_content6{*/
+    /*width:628px;*/
+    /*min-height:780px;*/
+    /*margin-top: 67px;*/
+    /*margin-left: 107px;*/
+    /*!*background: #ccc;*!*/
+/*}*/
+
+/*公司介绍*/
+.main_right_content_name{
+    width:85px;
+    height:22px;
+    font-size: 20px;
+    /*color:#ffffff;*/
+    font-family:"微软雅黑";
+}
+.main_right_content_img{
+    width: 100%;
+    height: 100%;
+}
+.main_right_content_intro{
+    width: 100%;
+    height:200px;
+    font-size: 18px;
+    /*color:#ffffff;*/
+    font-family:"微软雅黑";
+    text-indent:2em;
+    letter-spacing: 2px;
+}
+.add_tel{
+    /*color:#ffffff;*/
+    font-family:"微软雅黑";
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.main_right_content_intro_qita{
+    width: 100%;
+    min-height:200px;
+    font-size: 18px;
+    /*color:#ffffff;*/
+    font-family:"微软雅黑";
+    letter-spacing: 2px;
+}
+
+
+.aboutusclass{
+    display: none;
+}
+
+
+
+
+/*友情链接*/
+/*.friendship_link{*/
+    /*width:314px;*/
+    /*height:30px;*/
+    /*float: left;*/
+    /*text-align: center;*/
+/*}*/
+
+
+/*.a_two{*/
+    /*text-decoration:underline;*/
+    /*color:blue;*/
+/*}*/
+
+
+.main_right_content_intro1{
+    width: 100%;
+    min-height:200px;
+    font-size: 16px;
+    color:rgb(102,102,102);
+    line-height:30px;
+    /*color:#ffffff;*/
+    /*font-family:"微软雅黑";*/
+    /*text-indent:2em;*/
+    /*letter-spacing: 2px;*/
+}
+.main_right_content_intro1 img{
+    max-width: 80%;
+}
+
+
+/*友情链接*/
+.friendlink_content{
+    width: 100%;
+    height:200px;
+    float: left;
+    margin-left: -12px;
+    /*background: #eee;*/
+}
+
+.friendlink_content_each{
+    width:200px;
+    height:140px;
+    float:left;
+    margin-left: 12px;
+    margin-top: 12px;
+    /*background: #eee;*/
+}
+
+
+.friendlink_content_each_img{
+    width:200px;
+    height:110px;
+    /*background: blue;*/
+}
+
+.friendlink_content_each_font{
+    width:200px;
+    height:30px;
+    font-size:15px;
+    text-align: center;
+    line-height: 30px;
+    /*background: green;*/
+}
+
+
+
+/*百度地图*/
+
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}

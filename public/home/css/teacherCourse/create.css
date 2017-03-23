@@ -1,0 +1,799 @@
+.content_right_newcourse_top{
+    width:100%;
+    height:60px;
+    line-height: 60px;
+    font-size: 16px;
+    color:#000;
+    text-indent: 40px;
+    border-bottom:2px solid #F5F5F5;
+}
+.content_right_newcourse_bar{
+    width:100%;
+    height:125px;
+}
+.content_right_newcourse_bar_a{
+    width:80px;
+    height:60px;
+    float: left;
+    margin-top:20px;
+    margin-left:150px;
+    cursor: pointer;
+}
+.content_right_newcourse_bar_b{
+    width:80px;
+    height:60px;
+    float: left;
+    margin-top:20px;
+    margin-left:165px;
+    cursor: pointer;
+}
+.content_right_newcourse_bar_c{
+    width:80px;
+    height:60px;
+    float: left;
+    margin-top:20px;
+    margin-left:165px;
+    cursor: pointer;
+}
+.content_right_newcourse_design{
+    width:100%;
+    height:auto;
+}
+.content_right_newcourse_design_bara{
+    width:100%;
+    height:45px;
+}
+.content_right_newcourse_design_barb{
+    width:100%;
+    height:120px;
+}
+.content_right_newcourse_design_barc{
+    margin-top: 30px;
+    width:100%;
+    min-height:290px;
+}
+.content_right_newcourse_design_bara_l{
+    width:100px;
+    height:25px;
+    float: left;
+    margin:0 0 0 115px;
+    font-size: 16px;
+    color:rgb(102,102,102);
+}
+.content_right_newcourse_design_bara_r{
+    width:500px;
+    height:25px;
+    float: left;
+    border: 1px solid rgb(153,153,153);
+}
+.content_right_newcourse_design_bara_r input{
+    width:500px;
+    height:25px;
+    border: none;
+    color:rgb(102,102,102);
+    /*font-weight: bold;*/
+    font-size: 14px;
+    text-indent: 10px;
+    font-family: 微软雅黑;
+}
+.content_right_newcourse_design_barb_r{
+    width:500px;
+    height:120px;
+    float: left;
+    border: 1px solid rgb(153,153,153);
+}
+.content_right_newcourse_design_barb_r_top{
+    width:100%;
+    height:100px;
+}
+.content_right_newcourse_design_barb_r_top textarea{
+    width:490px;
+    height:95px;
+    border: hidden;
+    resize: none;
+    color: rgb(102,102,102);
+    text-indent: 10px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.content_right_newcourse_design_barb_r_fot{
+    width:490px;
+    height:20px;
+    line-height: 20px;
+    text-align: right;
+}
+.content_right_newcourse_design_barc_r{
+    width:500px;
+    /*height:auto;*/
+    min-height:290px;
+    float: left;
+    /*border: 1px solid rgb(153,153,153);*/
+}
+.content_right_newcourse_design_barc_r_t{
+    width:100%;
+    height:25px;
+    color:rgb(153,153,153);
+    font-size: 14px;
+}
+.content_right_newcourse_design_barc_r_t span {
+    cursor: pointer;
+}
+.content_right_newcourse_design_barc_r_r{
+    width:500px;
+    min-height:320px;
+    /*height:320px;*/
+    /*float: left;*/
+    /*border: 1px solid rgb(153,153,153);*/
+}
+.content_right_newcourse_design_barb_r_img{
+    width:120px;
+    height:90px;
+    float: left;
+    background: rgb(32,158,234);                          /*tmp*/
+}
+.content_right_newcourse_design_barb_r_r{
+    width:370px;
+    height:90px;
+    float: left;
+    margin-left:10px;
+    /*background: rgb(32,158,234);                          !*tmp*!*/
+}
+
+.content_right_newcourse_design_barb_r_r_li{
+    width:100%;
+    height:25px;
+    float: left;
+    line-height: 25px;
+    font-size: 14px;
+    color:rgb(153,153,153);
+}
+.content_right_newcourse_design_barb_r_r_btn{
+    width:80px;
+    height:28px;
+    margin-top: 10px;
+    float: left;
+    line-height:28px;
+    text-align: center;
+    color:#ffffff;
+    background:#209EEA;
+    font-size: 14px;
+    cursor: pointer;
+}
+.content_right_newcourse_design_barb_r_upbtn{
+    width:280px;
+    height:30px;
+    clear: both;
+}
+.content_right_newcourse_design_next{
+    clear: both;
+    width:100%;
+    height:120px;
+}
+.content_right_newcourse_design_next .btn{
+    width:100px;
+    heigth:28px;
+    line-height:28px;
+    text-align: center;
+    color:#ffffff;
+    background:#209EEA;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.content_right_newcourse_create_con{
+    width:670px;
+    height: auto;
+    margin: 0 auto;
+    /*height:600px;*/
+}
+.content_right_newcourse_create_con_list{
+    width:100%;
+    height:auto;
+}
+.content_right_newcourse_create_con_bar{
+    width:665px;
+    height:28px;
+    cursor: pointer;
+    background-color: #C2E5F9;
+}
+.content_right_newcourse_create_con_bar_img{
+    width:25px;
+    height:28px;
+    float: left;
+}
+.content_right_newcourse_create_con_bar_t{
+    width:100px;
+    height:28px;
+    float: left;
+    line-height: 28px;
+    font-size: 16px;
+    color:rgb(102,102,102);
+}
+.content_right_newcourse_create_con_node_li{
+    width:100%;
+    height:auto;
+}
+.content_right_newcourse_create_con_node_li_li{
+    width:100%;
+    height:auto;
+}
+.content_right_newcourse_create_con_li{
+    width:665px;
+    height:30px;
+    margin-top: 20px;
+}
+.content_right_newcourse_create_con_li_num{
+    width:120px;
+    height:30px;
+    line-height: 30px;
+    text-indent: 60px;
+    float: left;
+    font-size: 16px;
+    color:rgb(102,102,102);
+}
+.content_right_newcourse_create_con_li_tit{
+    width:300px;
+    height:28px;
+    overflow: hidden;
+    float: left;
+    border:1px solid #999999;
+}
+.content_right_newcourse_create_con_li_tit input{
+    width:100%;
+    height:27px;
+    border: none;
+    text-indent: 10px;
+}
+.content_right_newcourse_create_con_li_btncon{
+    width:240px;
+    height:30px;
+    float: left;
+    /*background: grey;*/
+}
+.content_right_newcourse_create_con_li_btncon_btn{
+    width:30px;
+    height:30px;
+    margin-left: 20px;
+    float: left;
+    cursor: pointer;
+}
+.content_right_newcourse_create_con_li_btncon_mor{
+    width:60px;
+    height:30px;
+    line-height: 30px;
+    cursor: pointer;
+    float: right;
+    font-size:14px;
+    color:#666666;
+}
+.content_right_newcourse_create_con_li_li_con{
+    width:100%;
+    height:auto;
+    margin-top:15px;
+}
+.content_right_newcourse_create_con_li_tit_li_name_con{
+    width:100%;
+    height:16px;
+}
+.content_right_newcourse_create_con_li_tit_li_name_con_name{
+    width:250px;
+    height:16px;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    float: left;
+}
+.content_right_newcourse_create_con_li_tit_li_name_con_status{
+    width:48px;
+    height:16px;
+    float: right;
+    position: relative;
+    top:5px;
+}
+.content_right_newcourse_create_con_li_tit_li_name_con_status img{
+    width:16px;
+    height:16px;
+    margin-left: 20px;
+}
+
+/*进度条*/
+.content_right_newcourse_create_con_li_li_con_jdbarcon{
+    width:100%;
+    height:12px;
+}
+.content_right_newcourse_create_con_li_li_con_jdbarcon_bar_a{
+    width:240px;
+    height:7px;
+    float: left;
+    margin-top: 2px;
+    background: #DCDCDC;
+    /*border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*-webkit-border-radius: 5px;*/
+}
+.content_right_newcourse_create_con_li_li_con_jdbarcon_bar_b{
+    /*width:240px;*/
+    width:80%;
+    height:7px;
+    background: #AAAAAA;
+}
+.content_right_newcourse_create_con_li_li_con_jdbarcon_bar_c{
+    /*width:240px;*/
+    width:60%;
+    height:7px;
+    background: #209EEA;
+}
+.content_right_newcourse_create_con_li_li_con_jdnum{
+    width:60px;
+    height:12px;
+    color:rgb(102,102,102);
+    text-indent: 30px;
+    float: right;
+    font-size: 12px;
+    position: relative;
+    top:-3px;
+}
+
+.content_right_newcourse_create_con_node_li_addbtn{
+    width:300px;
+    height:25px;
+    margin-left:120px;
+    border: 1px solid #209EEA;
+    font-size: 14px;
+    color:rgb(32,158,234);
+    line-height: 25px;
+    text-align: center;
+}
+.content_right_newcourse_create_con_node_li_addbtn_l{
+    width:100px;
+    height:25px;
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    color:rgb(32,158,234);
+    text-indent: 10px;
+    cursor: pointer;
+}
+.content_right_newcourse_create_con_node_li_addbtn_r{
+    width:120px;
+    height:25px;
+    float: right;
+    font-size: 14px;
+    line-height: 25px;
+    color:rgb(32,158,234);
+    text-indent: 10px;
+    cursor: pointer;
+}
+.content_right_newcourse_create_con_jdbtncon{
+    width:100%;
+    height:28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.content_right_newcourse_create_con_jdbtncon_btn{
+    width:100px;
+    height:28px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color:rgb(255,255,255);
+    background: #209EEA;
+    float: left;
+    cursor: pointer;
+}
+
+.content_right_newcourse_commit_con{
+    width:670px;
+    min-height: 300px;
+    /*height:auto;*/
+    margin: 0 auto;
+}
+.content_right_newcourse_commit_con_top{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    font-size: 16px;
+    color:rgb(102,102,102);
+    text-indent: 10px;
+}
+.content_right_newcourse_commit_class_li{
+    width:123px;
+    height:26px;
+    border: 1px solid #9A9A9A;
+    font-size: 14px;
+    line-height: 26px;
+    color:rgb(153,153,153);
+    text-align: center;
+    margin-left: 50px;
+    float: left;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.selclass{
+    border: 1px solid rgb(32,158,234);
+    color:rgb(32,158,234);
+}
+
+.content_right_newcourse_commit_sure{
+    width:100px;
+    height:28px;
+    background: rgb(32,158,234);
+    color:#ffffff;
+    font-size: 14px;
+    text-align: center;
+    line-height:28px;
+    margin: 0px auto 100px;
+    cursor: pointer;
+}
+
+/*select2*/
+.select2-container--default .select2-selection--single{
+    background-color: #fff;
+    /*border: 1px solid #aaa;*/
+    border: 1px solid rgb(153,153,153);
+    border-radius: 0;
+}
+/*select2*/
+
+/*ueditor*/
+/*.content_right_newcourse_design_barc_r_r #container .edui-default .edui-editor{*/
+    /*border: 1px solid rgb(153,153,153);*/
+/*}*/
+/*ueditor*/
+
+/*uploadify*/
+.uploadify-button{
+    opacity: 0;
+}
+.swfupload{
+    opacity: 0;
+}
+#SWFUpload_0{
+    position: relative;
+    left:120px;
+    top:-30px;
+}
+/*进度条*/
+/*.uploadify-queue-item:进度条类名*/
+/*.file_upload_coursepic_con .uploadify-queue-item{*/
+    /*position: relative;*/
+    /*top: -600px;*/
+    /*left:340px;*/
+    /*opacity: 100;*/
+/*}*/
+.uploadify-queue-item{
+    position: relative;
+    top:-80px;
+    left:220px;
+}
+/*uploadify*/
+
+
+
+
+
+
+
+/* ========= 试题布置弹窗 第二步 =========== */
+.shadow{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ABABAB;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 1;
+}
+
+.choose_paper_pop{
+    width: 650px;
+    height: 560px;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -325px;
+    margin-top: -280px;
+    background-color: white;
+}
+.choose_paper_pop_b{
+    width: 650px;
+    height: 560px;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -325px;
+    margin-top: -280px;
+    background-color: white;
+}
+.choose_paper_pop_c{
+    width: 650px;
+    height: 560px;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -325px;
+    margin-top: -280px;
+    background-color: white;
+}
+.choose_paper_pop2{
+    width: 650px;
+    height: 560px;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -325px;
+    margin-top: -280px;
+    background-color: white;
+}
+.choose_paper_pop_top{
+    width: 650px;
+    height: 60px;
+    background-color: #f6f6f6;
+}
+.choose_paper_pop_top .title{
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    color:rgb(51,51,51);
+}
+.choose_paper_pop_top_title{
+    width: 650px;
+    height: 60px;
+}
+.option_checked{
+    color: #209EEA;
+}
+.option_no_checked{
+    color: rgb(51, 51, 51);
+}
+.choose_paper_pop_top_title div{
+    float: left;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.choose_paper_pop_top_close{
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url("/home/image/evaluateManageTea/close.png") no-repeat;
+    margin-top: -40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.choose_paper_pop_center{
+    width: 650px;
+    height: 420px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.choose_paper_pop_center_repeat{
+    width: 650px;
+    height: 46px;
+    margin: 0 auto;
+    line-height: 46px;
+    border-bottom: 1px solid #ddd;
+}
+.choose_paper_pop_center_repeat_t{
+    text-align: center;
+    font-size: 15px;
+    color:black;
+}
+.choose_paper_pop_center_repeat div{
+    float: left;
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+}
+.choose_paper_pop_center_repeat_title{
+    width: 240px;
+    height:46px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+.choose_paper_pop_center_repeat_author{
+    width: 130px;
+    height:46px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.choose_paper_pop_center_repeat_time{
+    width: 190px;
+    text-align: center;
+}
+.choose_paper_pop_center_repeat_icon{
+    width: 24px;
+    height: 24px;
+    margin-top: 11px;
+    background: url("/home/image/evaluateManageTea/yinru.png") no-repeat;
+    cursor: pointer;
+}
+.choose_paper_pop_center_nodata{
+    width:100%;
+    height:350px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    line-height: 350px;
+}
+.choose_paper_pop_bot{
+    width: 650px;
+    height: 80px;
+}
+.choose_paper_pop_bot div{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    color: #209EEA;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.choose_paper_pop_center_tit{
+    width:100%;
+    height:80px;
+    line-height: 80px;
+    text-indent: 40px;
+    font-size: 16px;
+    color:rgb(102,102,102);
+}
+.choose_paper_pop_center_timebarcon{
+    width:100%;
+    height:100px;
+    /*background: grey;     !*tmp*!*/
+}
+.choose_paper_pop_center_timebarcon_bar_con{
+    width:500px;
+    height:20px;
+    /*margin-top: 20px;*/
+    margin-left: 80px;
+    position: relative;
+    /*background: grey;     !*temp*!*/
+}
+
+.timepoint{
+    width:20px;
+    height:20px;
+    background: url('/home/image/teacherCourse/timepoint.png');
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+}
+.choose_paper_pop_center_timebarcon_bar{
+    width:500px;
+    height:4px;
+    background: #999999;
+    position: relative;
+    top:8px;
+}
+.timesecond{
+    width:60px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color:rgb(153,153,153);
+}
+.timemid{
+    position: relative;
+    top:-30px;
+    left:-20px;
+}
+.timetart{
+    position: relative;
+    top:20px;
+}
+.timeend{
+    position: relative;
+    left:440px;
+}
+.choose_paper_pop_center_concon{
+    width:100%;
+    height:140px;
+    /*background: grey;*/
+}
+.choose_paper_pop_center_con{
+    width:500px;
+    height:140px;
+    border:1px solid rgb(153,153,153);
+    margin-left: 80px;
+}
+.choose_paper_pop_center_con_top{
+    width:500px;
+    height:120px;
+}
+.choose_paper_pop_center_con_top textarea{
+    width:496px;
+    height:116px;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    /*border: none;*/
+}
+.choose_paper_pop_center_con_fot{
+    width:98%;
+    height:20px;
+    text-align: right;
+    font-size: 14px;
+    color:rgb(153,153,153);
+}
+.choose_paper_pop_center_btncon{
+    width:100%;
+    height:30px;
+    /*background: #dddddd;    !*tmp*!*/
+}
+.choose_paper_pop_center_btn{
+    width:100px;
+    height:30px;
+    background: #209EEA;
+    color:#ffffff;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.center_btn_a{
+    margin: 0 auto;
+}
+.center_btn_b{
+    float: left;
+    margin-left: 145px;
+}
+
+
+
+
+
+
+.stepa{
+    background: url("/home/image/teacherCourse/stepa.png") 115px 30px no-repeat;
+}
+
+.stepb{
+    background: url("/home/image/teacherCourse/stepb.png") 115px 30px no-repeat;
+}
+
+.stepc{
+    background: url("/home/image/teacherCourse/stepc.png") 115px 30px no-repeat;
+}
+
+.down{
+    background: url("/home/image/teacherCourse/down.png") 5px 7px no-repeat;
+}
+
+.up{
+    background: url("/home/image/teacherCourse/up.png") 5px 6px no-repeat;
+}
+
+.upload{
+    background: url("/home/image/teacherCourse/upload.png") 2px 3px no-repeat;
+}
+
+.selfile{
+    background: url("/home/image/teacherCourse/selfile.png") 2px 3px no-repeat;
+}
+
+.del{
+    background: url("/home/image/teacherCourse/del.png") 2px 3px no-repeat;
+}
+
+.haveaddtip{
+    background: url("/home/image/teacherCourse/addtieshi.png") 2px 3px no-repeat;
+}
+
+.addtip{
+    background: url("/home/image/teacherCourse/tieshinum.png") 2px 3px no-repeat;
+}

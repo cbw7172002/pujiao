@@ -1,0 +1,163 @@
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,big,cite,code,del,em,font,img,ins,small,strong,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{margin:0;padding:0}
+img{border:0;margin:0px;padding:0;}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+body{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: black;
+}
+
+.ms-controller,
+.ms-important {
+    visibility: hidden !important;
+}
+
+
+.hide{
+    display: none;
+}
+.clear{
+    clear:both;
+}
+
+
+
+/*登陆界面*/
+.center{
+    width:1200px;
+    height:700px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top:-350px;
+    margin-left: -600px;
+    /*background:#dddddd;                      !*tmp*!*/
+}
+
+.teacher_con_top{
+    width:100%;
+    height:127px;
+}
+.teacher_con_top_l{
+    width:400px;
+    height:127px;
+    line-height:127px;
+    float: left;
+}
+.teacher_con_top_l hr{
+    border-top:3px solid #E5E5E5;
+}
+.teacher_con_top_r{
+    width:400px;
+    height:127px;
+    line-height:127px;
+    float: right;
+}
+
+.teacher_con_top_r hr{
+    border-top:3px solid #E5E5E5;
+}
+.teacher_con_top_t{
+    width:400px;
+    height:127px;
+    line-height: 127px;
+    text-align: center;
+    color:rgb(34,34,34);
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+.ts{
+    width:100%;
+    height:20px;
+    text-align: center;
+    font-size:20px;
+    color:#727272;
+}
+.center_con_con{
+    width:554px;
+    /*height:404px;*/
+    height:300px;
+    background:#F5F5F5;
+    margin:0 auto;
+    border:1px solid #E8E8E8;
+}
+
+
+.center_con_r_bar{
+    width:554px;
+    height:36px;
+}
+.center_con_r_bar_l{
+    width:75px;
+    height:36px;
+    float:left;
+}
+.center_con_r_bar_ll{
+    width:150px;
+    height:36px;
+    line-height:36px;
+    font-size: 14px;
+    color:#000000;
+    float:left;
+    text-indent:30px;
+    font-weight: bold;
+}
+.center_con_r_bar_m{
+    width:300px;
+    height:36px;
+    line-height:36px;
+    float:left;
+}
+.center_con_r_bar_m select{
+    width:100px;
+    font-size:12px;
+}
+.center_con_r_bar_m .txt{
+    width:298px;
+    height:34px;
+    border:1px solid #E8E8E8;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    text-indent:10px;
+}
+.btntj{
+    width:100%;
+    height:90px;
+}
+.btntj .wc{
+    width:300px;
+    height:36px;
+    line-height: 36px;
+    background:#209EEA;
+    color:#ffffff;
+    border:none;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    cursor: pointer;
+    font-size:14px;
+    font-weight: bold;
+    position:relative;
+    top:50px;
+    left:50%;
+    margin-left:-150px;
+}
+.select{
+    background: none;
+}

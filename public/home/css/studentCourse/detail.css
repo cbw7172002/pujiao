@@ -1,0 +1,2399 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.none{
+    display: none;
+}
+
+
+.content{
+    width:1200px;
+    min-height:200px;
+    margin: 0 auto;
+}
+
+/*左部分*/
+.content_left{
+    width:280px;
+    height:533px;
+    float: left;
+    background: #FFFFFF;
+}
+
+.content_left_top{
+    width:280px;
+    height:233px;
+    background: #ffffff;
+}
+
+.content_left_top_img{
+    width:221px;
+    height:166px;
+    position: relative;
+    top:22px;
+    margin-left: 29px;
+}
+
+.blue{
+    color: #209EEA;
+}
+
+/*课程选项背景*/
+.course_back{
+    width:280px;
+    height:60px;
+    font-size: 18px;
+    text-align: center;
+    line-height:60px;
+    cursor:pointer;
+    font-family:"微软雅黑";
+}
+
+/*hover效果*/
+.active_hover {
+    background: #f5f5f5;
+}
+
+.span_hover {
+    width: 2%;
+    height: 60px;
+    display: inline-block;
+    float: left;
+}
+.span_active{
+    background: #209EEA;
+    color:rgb(255,255,255);
+}
+
+/*右部分*/
+.content_right{
+    width:880px;
+    min-height:677px;
+    float: left;
+    margin-left: 40px;
+    background: #ffffff;
+}
+
+/*课程介绍*/
+.content_right_courseintro{
+    width:880px;
+    min-height:677px;
+    background: #ffffff;
+}
+
+.courseintro_top{
+    width:880px;
+    height:58px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.courseintro_top_detail{
+    width:740px;
+    height:22px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 42px;
+    /*background: #eee;*/
+}
+
+.courseintro_top_detail_title{
+    width:150px;
+    height:22px;
+    line-height:22px;
+    font-size: 16px;
+    color:rgb(102,102,102);
+    float: left;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.courseintro_top_detail_author{
+    min-width:35px;
+    height:22px;
+    line-height:22px;
+    font-size: 16px;
+    color:rgb(102,102,102);
+    float: left;
+    margin-left: 25px;
+}
+.courseintro_top_detail_subject{
+    min-width:30px;
+    height:22px;
+    line-height:22px;
+    font-size: 14px;
+    color:rgb(153,153,153);
+    float: left;
+    margin-left: 188px;
+}
+.courseintro_top_detail_version{
+    min-width:30px;
+    height:22px;
+    line-height:22px;
+    font-size: 14px;
+    color:rgb(153,153,153);
+    float: left;
+    margin-left: 17px;
+}
+.courseintro_top_detail_grade{
+    min-width:30px;
+    height:22px;
+    line-height:22px;
+    font-size: 14px;
+    color:rgb(153,153,153);
+    float: left;
+    margin-left: 17px;
+}
+.courseintro_top_detail_book{
+    min-width:30px;
+    height:22px;
+    line-height:22px;
+    font-size: 14px;
+    color:rgb(153,153,153);
+    float: left;
+    margin-left: 17px;
+}
+.courseintro_top_detail_collect{
+    min-width:30px;
+    height:22px;
+    line-height:22px;
+    font-size: 14px;
+    color:rgb(153,153,153);
+    float: left;
+    margin-left: 17px;
+}
+
+.courseintro_top_detail_img{
+    width:22px;
+    height:20px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    background:url('/home/image/teacherCourse/shoucang1.png') no-repeat;
+}
+.courseintro_top_detail_img_del{
+    width:22px;
+    height:20px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    background:url('/home/image/teacherCourse/quxiaoshoucang.png') no-repeat;
+}
+
+/*课程介绍*/
+.course_intro_title{
+    width:740px;
+    height:58px;
+    line-height:58px;
+    margin-left: 71px;
+    font-size: 16px;
+    color:rgb(51,51,51);
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.content_right_content{
+    width:658px;
+    min-height:100px;
+    margin-left: 115px;
+}
+
+.content_right_content_point_title{
+    width:658px;
+    min-height:10px;
+    color:#666666;
+    line-height: 24px;
+    font-size: 16px;
+}
+.content_right_content_point{
+    width:658px;
+    min-height:100px;
+    color:#666666;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.content_right_content_information{
+    width:658px;
+    min-height:100px;
+    color:#666666;
+    line-height: 24px;
+    font-size: 14px;
+    /*background: #ccc;*/
+}
+
+.content_right_courseintro_tabs{
+    width:880px;
+    min-height:677px;
+    background: #ffffff;
+}
+
+
+
+
+
+/*******************随堂笔记********************/
+
+.course_note_title{
+    width:200px;
+    height:56px;
+    margin-left: 72px;
+}
+
+.course_note_my{
+    width:70px;
+    height:56px;
+    font-size: 16px;
+    /*color:rgb(32,158,234);*/
+    line-height:56px;
+    float: left;
+    cursor:pointer;
+}
+
+.course_note_share{
+    width:70px;
+    height:56px;
+    float: left;
+    font-size: 16px;
+    /*color:rgb(51,51,51);*/
+    line-height:56px;
+    margin-left: 52px;
+    cursor:pointer;
+}
+/*修改笔记文本框*/
+.modify_notes{
+    width:720px;
+    height: 100px;
+    margin-left: 33px;
+    background: #eee;
+}
+.modify_notes textarea{
+    width:720px;
+    height:100px;
+    resize:none;
+}
+/*确定修改*/
+.modify_notes_fabu{
+    width:60px;
+    height:24px;
+    float: right;
+    font-size:14px;
+    /*margin-top: 18px;*/
+    text-align: center;
+    line-height:24px;
+    color:rgb(255,255,255);
+    background: #209EEA;
+    cursor: pointer;
+}
+
+/*下拉框*/
+.course_note_select{
+    width:500px;
+    min-height:24px;
+    margin-left: 30px;
+}
+.course_note_select1{
+    width:120px;
+    min-height:24px;
+    float: left;
+}
+.course_note_select1 select{
+    width:120px;
+    /*height:100%;*/
+    font-size: 14px;
+    color:rgb(102,102,102);
+}
+.course_note_select2{
+    width:180px;
+    min-height:24px;
+    float: left;
+    margin-left: 50px;
+}
+.course_note_select2 select{
+    width:180px;
+    /*height:100%;*/
+    font-size: 14px;
+    color:rgb(102,102,102);
+}
+
+.course_note_border{
+    width:800px;
+    min-height: 20px;
+    margin-left: 40px;
+    /*border-bottom: 1px solid #F5F5F5;*/
+}
+.course_note_borders{
+    width:800px;
+    min-height: 20px;
+    margin-left: 40px;
+    /*border-bottom: 1px solid #F5F5F5;*/
+}
+.course_note_content{
+    width:720px;
+    min-height: 20px;
+    margin-left: 33px;
+    border-bottom: 1px solid #eee;
+}
+
+.course_note_content_top{
+    width:720px;
+    min-height: 36px;
+}
+.course_note_content_bottom{
+    width:670px;
+    min-height: 20px;
+    margin-left: 45px;
+    font-size: 14px;
+    line-height:24px;
+    color:rgb(102,102,102);
+    white-space:normal;
+    word-break:break-all;
+}
+
+
+/*头像*/
+.course_note_content_top_img{
+    width:36px;
+    height:36px;
+    float: left;
+    border-radius:50%;
+}
+.course_note_content_top_img img{
+    border-radius:50%;
+}
+
+.course_note_content_top_name{
+    min-width:20px;
+    height:36px;
+    line-height:36px;
+    color:rgb(32,158,234);
+    font-size:14px;
+    float: left;
+    margin-left: 10px;
+}
+.course_note_content_top_locking{
+    min-width:20px;
+    height:20px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.course_note_content_top_edit{
+    min-width:20px;
+    height:20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.course_note_content_top_del{
+    min-width:20px;
+    height:20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.course_note_content_top_title_time{
+    float: right;
+}
+.course_note_content_top_title{
+    min-width:20px;
+    height:36px;
+    line-height:36px;
+    font-size:14px;
+    color:rgb(153,153,153);
+    float: left;
+    margin-left: 330px;
+}
+.course_note_content_top_time{
+    min-width:20px;
+    height:36px;
+    line-height:36px;
+    font-size:14px;
+    color:rgb(153,153,153);
+    float: left;
+    margin-left: 21px;
+}
+
+
+
+
+
+/*********************问答课程**********************/
+.course_question_title{
+    width:680px;
+    height:46px;
+    font-size: 16px;
+    color:rgb(51,51,51);
+    line-height: 46px;
+    margin-left: 71px;
+}
+
+.course_question_area{
+    width:680px;
+    height:105px;
+    margin-left: 71px;
+}
+.course_question_area textarea{
+    width:680px;
+    height:105px;
+    resize:none;
+}
+
+/*发布按钮*/
+.course_question_fabu{
+    width:680px;
+    height:60px;
+    margin-left: 71px;
+    /*background: #eee;*/
+}
+.course_question_fabu div{
+    width:60px;
+    height:24px;
+    float: right;
+    font-size:14px;
+    margin-top: 18px;
+    text-align: center;
+    line-height:24px;
+    color:rgb(255,255,255);
+    background: #209EEA;
+    cursor: pointer;
+}
+
+.course_question_content{
+    width:760px;
+    min-height:50px;
+    margin-left: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.course_question_stu{
+    width:670px;
+    min-height:10px;
+    margin-left: 40px;
+    /*background: #ccc;*/
+}
+
+.course_question_stu_img{
+    width:36px;
+    height:36px;
+    float: left;
+
+}
+
+.course_question_stu_img img{
+    border-radius:50%;
+}
+
+.course_question_stu_name{
+    min-width:20px;
+    height:36px;
+    float: left;
+    margin-left: 10px;
+    color:#209eea;
+    font-size:14px;
+    line-height:36px;
+}
+.course_question_stu_time{
+    min-width:20px;
+    height:36px;
+    float: right;
+    color:rgb(102,102,102);
+    font-size:14px;
+    line-height:36px;
+}
+
+.course_question_stu_content{
+    width:620px;
+    min-height:10px;
+    margin-left: 88px;
+    font-size: 12px;
+    line-height:18px;
+    color:rgb(102,102,102);
+}
+
+/*老师回答*/
+.course_question_tea_name{
+    min-width:20px;
+    height:36px;
+    float: left;
+    margin-left: 10px;
+    color:#209eea;
+    font-size:14px;
+    line-height:36px;
+}
+.course_question_tea_huida{
+    width:30px;
+    height:36px;
+    float: left;
+    margin-left: 10px;
+    color:#209eea;
+    font-size:14px;
+    line-height:36px;
+}
+.course_question_tea_time{
+    min-width:20px;
+    height:36px;
+    float: right;
+    color:rgb(102,102,102);
+    font-size:14px;
+    line-height:36px;
+}
+
+
+/* ================= 同步测验 start =================*/
+.content_right_synchrotest_tabs{
+    width: 720px;
+    min-height: 640px;
+    margin: 0 auto;
+}
+.content_right_synchrotest_top{
+    width: 720px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.no_data_show{
+    width: 720px;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.content_right_synchrotest_one, .content_right_synchrotest_two, .content_right_synchrotest_three{
+    width: 720px;
+    min-height: 90px;
+}
+.content_right_synchrotest_one_top, .content_right_synchrotest_two_top, .content_right_synchrotest_three_top{
+    width: 720px;
+    height: 30px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    background-color: #C2E5F9;
+}
+.content_right_synchrotest_one_top div, .content_right_synchrotest_two_top div, .content_right_synchrotest_three_top div{
+    float: left;
+}
+.content_right_synchrotest_one_top_1, .content_right_synchrotest_two_top_1, .content_right_synchrotest_three_top_1{
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+    margin-left: 4px;
+    background: url("/home/image/studentCourse/stuDetail/test_sanjiao.png") no-repeat;
+}
+.content_right_synchrotest_one_top_2, .content_right_synchrotest_two_top_2, .content_right_synchrotest_three_top_2{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 4px;
+}
+.content_right_synchrotest_one_top_3, .content_right_synchrotest_two_top_3, .content_right_synchrotest_three_top_3{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+.content_right_synchrotest_one_repeat, .content_right_synchrotest_two_repeat, .content_right_synchrotest_three_repeat{
+    width: 720px;
+    min-height: 60px;
+}
+.content_right_synchrotest_one_repeat div, .content_right_synchrotest_two_repeat div, .content_right_synchrotest_three_repeat div{
+    float: left;
+}
+.content_right_synchrotest_one_repeat_left, .content_right_synchrotest_two_repeat_left, .content_right_synchrotest_three_repeat_left{
+    width: 135px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    margin-left: 55px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.content_right_synchrotest_one_repeat_center, .content_right_synchrotest_two_repeat_center, .content_right_synchrotest_three_repeat_center{
+    width: 370px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    text-align: left;
+    margin-left: 40px;
+}
+.content_right_synchrotest_one_repeat_right, .content_right_synchrotest_two_repeat_right, .content_right_synchrotest_three_repeat_right{
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 25px;
+    background-color: #6CE86C;
+    cursor: pointer;
+}
+/* ================= 同步测验 end =================*/
+
+
+/* ================= 课程目录 start =================*/
+.content_right_courselist_tabs{
+    width: 720px;
+    min-height: 640px;
+    margin: 0 auto;
+}
+.content_right_synchrocatalog_one_repeat_right, .content_right_synchrocatalog_two_repeat_right, .content_right_synchrocatalog_three_repeat_right{
+    width: 82px;
+    height: 24px;
+    margin-top: 18px;
+    margin-left: 25px;
+    /*background-color: #6CE86C;*/
+    /*cursor: pointer;*/
+}
+.a{
+    background: url("/home/image/studentCourse/stuDetail/catalog_a.png") no-repeat;
+}
+.b{
+    background: url("/home/image/studentCourse/stuDetail/catalog_b.png") no-repeat;
+}
+.ratea{
+    background: url("/home/image/teacherCourse/jda.png") no-repeat center left;
+}
+.rateb{
+    background: url("/home/image/teacherCourse/jdb.png") no-repeat center left;
+}
+.ratec{
+    background: url("/home/image/teacherCourse/jdc.png") no-repeat center left;
+}
+.rated{
+    background: url("/home/image/teacherCourse/jdd.png") no-repeat center left;
+}
+.ratee{
+    background: url("/home/image/teacherCourse/jde.png") no-repeat center left;
+}
+
+.content_right_synchrocatalog_one_repeat_img{
+    width: 47px;
+    height: 60px;
+    margin-left: 4px;
+}
+.content_right_synchrocatalog_one_repeat_img img{
+    margin-top:23px;
+    margin-left: 20px;
+}
+.content_right_synchrocatalog_one_repeat_left_img{
+    width: 65px;
+    height: 60px;
+    /*background: yellow;*/
+    margin-left: 4px;
+}
+.content_right_synchrocatalog_one_repeat_left_img img{
+    margin-top:23px;
+    margin-left: 20px;
+}
+
+.content_right_synchrocatalog_one_repeat_left, .content_right_synchrocatalog_two_repeat_left, .content_right_synchrocatalog_three_repeat_left{
+    width: 35px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    margin-left: 5px;
+}
+
+.content_right_synchrocatalog_one_repeat_center, .content_right_synchrocatalog_two_repeat_center, .content_right_synchrocatalog_three_repeat_center{
+    width: 457px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    margin-left: 40px;
+    /*background: yellow;*/
+}
+.content_right_synchrocatalog_one_repeat_center a, .content_right_synchrocatalog_two_repeat_center a, .content_right_synchrocatalog_three_repeat_center a{
+    color: rgb(102, 102, 102);
+}
+
+/*fgdfg*/
+.content_right_synchrocatalogtest_two_repeat_left{
+    width: 35px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    /*margin-left: 70px;*/
+}
+.content_right_synchrocatalogtest_two_repeat_center{
+    width: 470px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    margin-left: 40px;
+}
+.content_right_synchrocatalogtest_two_repeat_center a{
+    color: rgb(102, 102, 102);
+}
+.content_right_synchrocatalogtest_two_repeat_right{
+    width: 81px;
+    height:24px;
+    line-height: 24px;
+    margin-top: 18px;
+    /*margin-left: 25px;*/
+    /*cursor: pointer;*/
+    /*border: 1px solid red;*/
+}
+.content_right_synchrocatalogtest_two_repeat_righta{
+    width: 24px;
+    height:24px;
+    line-height: 24px;
+    float: right;
+    margin-left: 3px;
+    /*cursor: pointer;*/
+    /*background: #2a62bc;*/
+}
+
+.test{
+    color: rgb(254, 254, 254);
+    text-align: center;
+    background-color: #6CE86C;
+}
+
+/* ================= 课程目录 end =================*/
+
+
+
+/* ============== 开始测验弹窗 start ================= */
+.start_test{
+    width: 650px;
+    height: 300px;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -325px;
+    margin-top: -150px;
+    background-color: white;
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ABABAB;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 1;
+}
+.question_detail_title{
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    margin: 0 auto;
+}
+.question_detail_title_right{
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url("/home/image/evaluateManageTea/close.png") no-repeat;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.question_detail_content{
+    width: 600px;
+    margin: 0 auto;
+}
+.question_detail_content_top{
+    width: 600px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 60px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+.question_detail_content_cen{
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    margin: 0 auto;
+}
+.question_detail_content_bot{
+    width: 260px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    margin: 0 auto;
+}
+.question_detail_bot{
+    width: 720px;
+    height: 130px;
+    border-top: 2px solid #F5F5F5;
+    margin: 0 auto;
+}
+.start_btn{
+    width: 80px;
+    height: 28px;
+    color: #FFF;
+    font-size: 14px;
+    background-color: #209EEA;
+    text-align: center;
+    line-height: 28px;
+    margin: 40px auto;
+    cursor: pointer;
+}
+/* ============== 开始测验弹窗 end ================= */
+/* ============== 课程同步练习-已答 start ================= */
+.hr_4 {
+    width: 100%;
+    height: 40px;
+}
+.hr_8 {
+    width: 100%;
+    height: 100px;
+}
+.hr_10 {
+    width: 100%;
+    height: 100px;
+}
+.clear{
+    clear: both;
+}
+.hide{
+    display: none;
+}
+.student_paper{
+    width: 880px;
+    min-height: 1000px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.student_paper_top{
+    width: 880px;
+    height: 55px;
+    border-bottom: 2px solid #F5F5F5;
+    margin: 0 auto;
+}
+.student_paper_top_title{
+    width: 880px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_paper_top_type{
+    width: 200px;
+    height: 55px;
+    line-height: 70px;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-top: -55px;
+    float: right;
+}
+.student_paper_content{
+    width: 740px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+.student_paper_content_top{
+    width: 740px;
+    height: 80px;
+    margin: 0 auto;
+}
+.student_paper_content_top_left{
+    width: 740px;
+    height: 40px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.student_paper_content_top_right{
+    width: 740px;
+    height: 40px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_paper_content_bot{
+    width: 740px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+/* ===================== 单选题 ========================== */
+.student_paper_content_repeat_1,
+.student_paper_content_repeat_2{
+    width: 740px;
+    min-height: 250px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_paper_content_repeat_3{
+    width: 740px;
+    min-height: 120px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_paper_content_repeat_5{
+    width: 740px;
+    min-height: 180px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_paper_content_repeat_top{
+    width: 740px;
+    min-height: 30px;
+    margin-top: 10px;
+}
+.student_paper_content_repeat_top_question{
+    width: 740px;
+    min-height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.student_paper_content_repeat_top_question div{
+    float: left;
+}
+.student_paper_content_repeat_1 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #209EEB;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_2 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FECE7F;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_3 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FE97A3;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #84CCCA;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_5 .student_paper_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #C477D5;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_paper_content_repeat_top_question .three{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.student_paper_content_repeat_top_question .three img{
+    max-width: 300px;
+}
+.student_paper_content_repeat_top_question .four{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    float: right;
+}
+.student_paper_content_repeat_cen{
+    width: 740px;
+    min-height: 160px;
+    margin: 0 auto;
+}
+.student_paper_content_repeat_5 .student_paper_content_repeat_cen{
+    width: 740px;
+    min-height: 70px;
+    margin: 0 auto;
+}
+.student_paper_content_repeat_cen_answer{
+    width: 740px;
+    min-height: 40px;
+    line-height: 40px;
+}
+.student_paper_content_repeat_cen_answer div{
+    float: left;
+}
+.student_paper_content_repeat_cen_answer .one{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 27px;
+}
+.student_paper_content_repeat_cen_answer .two{
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.student_paper_content_repeat_cen_answer .two img{
+    max-width: 300px;
+}
+.has_choose{
+    background: url("/home/image/evaluateManageTea/haschoose.png") no-repeat;
+}
+.no_choose{
+    background: url("/home/image/evaluateManageTea/nochoose.png") no-repeat;
+}
+.student_paper_content_repeat_1 .student_paper_content_repeat_bot,
+.student_paper_content_repeat_2 .student_paper_content_repeat_bot{
+    width: 740px;
+    min-height: 40px;
+    background-color: #F5F5F5;
+}
+.student_paper_content_repeat_3 .student_paper_content_repeat_bot{
+    width: 740px;
+    min-height: 40px;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+}
+.student_paper_content_repeat_5 .student_paper_content_repeat_bot{
+    width: 740px;
+    min-height: 40px;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+}
+.right_color{
+    color: rgb(97, 214, 97);
+}
+.false_color{
+    color: #FF7676;
+}
+.student_paper_content_repeat_bot_left{
+    width: 270px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    margin-left:30px;
+}
+.student_paper_content_repeat_bot_right{
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    float: right;
+}
+/* ========= 解答题 ========= */
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen{
+    width: 740px;
+    min-height: 150px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen div:first-child{
+    border-top: none;
+    word-wrap: break-word;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen_answer{
+    width: 740px;
+    min-height: 150px;
+    border-top: 2px dashed #cfcfcf;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen_answer_top{
+    width: 710px;
+    color: rgb(102, 102, 102);
+    margin-left: 30px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen_answer_cen{
+    width: 690px;
+    color: rgb(102, 102, 102);
+    margin-left: 50px;
+}
+.student_paper_content_repeat_4 .student_paper_content_repeat_cen_answer_bot{
+    width: 710px;
+    padding-left: 30px;
+    background-color: #F5F5F5;
+}
+/* ============== 课程同步练习-已答 end =================== */
+
+
+/*{{-- ============================= 课程同步练习（作业-未答）start =========================== --}}*/
+.student_homework{
+    width: 880px;
+    min-height: 1000px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.student_homework_top{
+    width: 880px;
+    height: 55px;
+    border-bottom: 2px solid #F5F5F5;
+    margin: 0 auto;
+}
+.student_homework_top_title{
+    width: 880px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_homework_top_type{
+    width: 200px;
+    height: 55px;
+    line-height: 70px;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-top: -55px;
+    float: right;
+}
+.student_homework_content{
+    width: 740px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+.student_homework_content_top{
+    width: 740px;
+    height: 80px;
+    margin: 0 auto;
+}
+.student_homework_content_top_left{
+width: 740px;
+height: 40px;
+line-height: 50px;
+text-align: left;
+font-size: 16px;
+color: rgb(51, 51, 51);
+}
+.student_homework_content_top_right{
+    width: 740px;
+    height: 40px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_homework_content_bot{
+    width: 740px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+/* ===================== 单选题 ========================== */
+.student_homework_content_repeat_1,
+.student_homework_content_repeat_2{
+    width: 740px;
+    min-height: 210px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_homework_content_repeat_3{
+    width: 740px;
+    min-height: 50px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_homework_content_repeat_5{
+    width: 740px;
+    min-height: 120px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_homework_content_repeat_top{
+    width: 740px;
+    min-height: 30px;
+    margin-top: 20px;
+}
+.student_homework_content_repeat_top_question{
+    width: 740px;
+    min-height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.student_homework_content_repeat_top_question div{
+    float: left;
+}
+.student_homework_content_repeat_1 .student_homework_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #209EEB;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_homework_content_repeat_2 .student_homework_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FECE7F;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_homework_content_repeat_3 .student_homework_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FE97A3;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_homework_content_repeat_3 .student_homework_content_repeat_top_question .three input{
+    min-width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #5c5c5c;
+    padding-left: 40px;
+    height: 20px;
+}
+.student_homework_content_repeat_4 .student_homework_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #84CCCA;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_homework_content_repeat_5 .student_homework_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #C477D5;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_homework_content_repeat_top_question .three{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.student_homework_content_repeat_top_question .three img{
+    max-width: 300px;
+}
+.student_homework_content_repeat_top_question .four{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    float: right;
+}
+.student_homework_content_repeat_cen{
+    width: 740px;
+    min-height: 160px;
+    margin: 0 auto;
+}
+.student_homework_content_repeat_5 .student_homework_content_repeat_cen{
+    width: 740px;
+    min-height: 70px;
+    margin: 0 auto;
+}
+.student_homework_content_repeat_cen_answer{
+    width: 740px;
+    min-height: 40px;
+    line-height: 40px;
+}
+.student_homework_content_repeat_cen_answer input{
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 12px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.student_homework_content_repeat_cen_answer div{
+    float: left;
+}
+.student_homework_content_repeat_cen_answer .one{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 27px;
+}
+.student_homework_content_repeat_cen_answer .two{
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.student_homework_content_repeat_cen_answer .two img{
+    max-width: 300px;
+}
+.has_choose{
+    background: url("/home/image/evaluateManageTea/haschoose.png") no-repeat;
+}
+.no_choose{
+    background: url("/home/image/evaluateManageTea/nochoose.png") no-repeat;
+}
+/* ========= 解答题 ========= */
+.student_homework_content_repeat_4 .student_homework_content_repeat_cen{
+    width: 740px;
+    min-height: 150px;
+}
+.student_homework_content_repeat_4 .student_homework_content_repeat_cen div:first-child{
+    border-top: none;
+    word-wrap: break-word;
+}
+.student_homework_content_repeat_4 .student_homework_content_repeat_cen_answer{
+    width: 740px;
+    min-height: 140px;
+    border-top: 2px dashed #cfcfcf;
+}
+.student_homework_content_repeat_4 .student_homework_content_repeat_cen_answer_top{
+    width: 740px;
+    color: rgb(102, 102, 102);
+    margin-left: 30px;
+}
+.student_homework_content_repeat_4 .student_homework_content_repeat_cen_answer_bot{
+    width: 405px;
+    height: 60px;
+    color: rgb(102, 102, 102);
+    margin-left: 43px;
+}
+.student_homework_content_repeat_4 .student_homework_content_repeat_cen_answer_bot textarea{
+    width: 405px;
+    height: 60px;
+    resize: none;
+}
+.student_homework .question_detail_score_submit{
+    width: 140px;
+    height: 24px;
+    margin: 20px auto 0;
+}
+.student_homework .question_detail_score_submit_save{
+    width: 50px;
+    height: 24px;
+    color: #FFF;
+    font-size: 12px;
+    background-color: #209EEA;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+    float: left;
+}
+.student_homework .question_detail_score_submit_submit{
+    width: 50px;
+    height: 24px;
+    color: #FFF;
+    font-size: 12px;
+    background-color: #209EEA;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+    float: right;
+}
+/*{{-- ============================= 课程同步练习（作业-未答）end =========================== --}}*/
+
+/*{{-- ============================= 课程同步练习（测验-未答）start =========================== --}}*/
+.student_test{
+    width: 880px;
+    min-height: 1000px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.student_test_top{
+    width: 880px;
+    height: 55px;
+    border-bottom: 2px solid #F5F5F5;
+    margin: 0 auto;
+}
+.student_test_top_title{
+    width: 880px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_test_top_type{
+    width: 200px;
+    height: 55px;
+    line-height: 70px;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-top: -55px;
+    float: right;
+}
+.student_test_content{
+    width: 740px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+.student_test_content_top{
+    width: 740px;
+    height: 80px;
+    margin: 0 auto;
+}
+.student_test_content_top_left{
+    width: 740px;
+    height: 40px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.student_test_content_top_right{
+    width: 740px;
+    height: 40px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_test_content_bot{
+    width: 740px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+/* ===================== 单选题 ========================== */
+.student_test_content_repeat_one,
+.student_test_content_repeat_two{
+    width: 740px;
+    min-height: 250px;
+}
+.student_test_content_repeat_three{
+    width: 740px;
+    min-height: 90px;
+}
+.student_test_content_repeat_five{
+    width: 740px;
+    min-height: 160px;
+}
+.student_test_content_repeat_four{
+    width: 740px;
+    min-height: 160px;
+}
+.student_test_content_repeat_one_top,
+.student_test_content_repeat_two_top,
+.student_test_content_repeat_three_top,
+.student_test_content_repeat_four_top,
+.student_test_content_repeat_five_top{
+    width: 740px;
+    min-height: 50px;
+    line-height: 50px;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+}
+.student_test_content_repeat_1,
+.student_test_content_repeat_2{
+    width: 700px;
+    min-height: 210px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_test_content_repeat_3{
+    width: 700px;
+    min-height: 50px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_test_content_repeat_5{
+    width: 700px;
+    min-height: 120px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_test_content_repeat_4{
+    width: 740px;
+    min-height: 120px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_test_content_repeat_top{
+    width: 700px;
+    min-height: 30px;
+}
+.student_test_content_repeat_top_question{
+    width: 700px;
+    min-height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.student_test .student_test_content_repeat_4 .student_test_content_repeat_top_question{
+    width: 740px;
+    margin-left:40px;
+}
+.student_test_content_repeat_top_question div{
+    float: left;
+}
+.student_test_content_repeat_1 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #209EEB;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_test_content_repeat_2 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FECE7F;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_test_content_repeat_3 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FE97A3;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_test_content_repeat_3 .student_test_content_repeat_top_question .three input{
+    min-width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #5c5c5c;
+    padding: 0 40px;
+}
+.student_test_content_repeat_4 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #84CCCA;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_test_content_repeat_5 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #C477D5;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_test_content_repeat_top_question .three{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.student_test_content_repeat_top_question .three img{
+    max-width: 300px;
+}
+.student_test_content_repeat_top_question .four{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    float: right;
+}
+.student_test_content_repeat_cen{
+    width: 700px;
+    min-height: 160px;
+    margin: 0 auto;
+}
+.student_test_content_repeat_5 .student_test_content_repeat_cen{
+    width: 700px;
+    min-height: 70px;
+    margin: 0 auto;
+}
+.student_test_content_repeat_cen_answer{
+    width: 700px;
+    min-height: 40px;
+    line-height: 40px;
+}
+.student_test_content_repeat_cen_answer input{
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 12px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.student_test_content_repeat_cen_answer div{
+    float: left;
+}
+.student_test_content_repeat_cen_answer .one{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 27px;
+}
+.student_test_content_repeat_cen_answer .two{
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.has_choose{
+    background: url("/home/image/evaluateManageTea/haschoose.png") no-repeat;
+}
+.no_choose{
+    background: url("/home/image/evaluateManageTea/nochoose.png") no-repeat;
+}
+/* ========= 解答题 ========= */
+.student_test_content_repeat_4 .student_test_content_repeat_cen{
+    width: 740px;
+    min-height: 150px;
+}
+.student_test_content_repeat_4 .student_test_content_repeat_cen div:first-child{
+    border-top: none;
+    word-wrap: break-word;
+}
+.student_test_content_repeat_4 .student_test_content_repeat_cen_answer{
+    width: 740px;
+    min-height: 40px;
+    border-top: 2px dashed #cfcfcf;
+}
+.student_test_content_repeat_4 .student_test_content_repeat_cen_answer_top{
+    width: 660px;
+    color: rgb(102, 102, 102);
+    margin-left: 70px;
+}
+.student_test_content_repeat_4 .student_test_content_repeat_cen_answer_bot{
+    width: 405px;
+    min-height: 60px;
+    color: rgb(102, 102, 102);
+    margin-left: 83px;
+}
+.student_test_content_repeat_4 .student_test_content_repeat_cen_answer_bot textarea{
+    width: 405px;
+    height: 60px;
+    resize: none;
+}
+.student_test .question_detail_score_submit{
+    width: 50px;
+    height: 24px;
+    color: #FFF;
+    font-size: 12px;
+    background-color: #209EEA;
+    text-align: center;
+    line-height: 24px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/*{{-- ============================= 课程同步练习（测验-未答）end =========================== --}}*/
+
+/*{{-- ============================= 课程同步练习（测验-已答）start =========================== --}}*/
+.student_answer{
+    width: 880px;
+    min-height: 1000px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+.student_answer .student_test_top{
+    width: 880px;
+    height: 55px;
+    border-bottom: 2px solid #F5F5F5;
+    margin: 0 auto;
+}
+.student_answer .student_test_top_title{
+    width: 880px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_answer .student_test_top_type{
+    width: 200px;
+    height: 55px;
+    line-height: 70px;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-top: -55px;
+    float: right;
+}
+.student_answer .student_test_content{
+    width: 740px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+.student_answer .student_test_content_top{
+    width: 740px;
+    height: 80px;
+    margin: 0 auto;
+}
+.student_answer .student_test_content_top_left{
+    width: 740px;
+    height: 40px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.student_answer .student_test_content_top_right{
+    width: 740px;
+    height: 40px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.student_answer .student_test_content_bot{
+    width: 740px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+/* ===================== 单选题 ========================== */
+.student_answer .student_test_content_repeat_one,
+.student_answer .student_test_content_repeat_two{
+    width: 740px;
+    min-height: 290px;
+}
+.student_answer .student_test_content_repeat_three{
+    width: 740px;
+    min-height: 90px;
+}
+.student_answer .student_test_content_repeat_five{
+    width: 740px;
+    min-height: 160px;
+}
+.student_answer .student_test_content_repeat_four{
+    width: 740px;
+    min-height: 160px;
+}
+.student_answer .student_test_content_repeat_one_top,
+.student_answer .student_test_content_repeat_two_top,
+.student_answer .student_test_content_repeat_three_top,
+.student_answer .student_test_content_repeat_four_top,
+.student_answer .student_test_content_repeat_five_top{
+    width: 740px;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+}
+.student_answer .student_test_content_repeat_1,
+.student_answer .student_test_content_repeat_2{
+    width: 700px;
+    min-height: 210px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_answer .student_test_content_repeat_3{
+    width: 700px;
+    min-height: 50px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_answer .student_test_content_repeat_5{
+    width: 700px;
+    min-height: 120px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_answer .student_test_content_repeat_4{
+    width: 700px;
+    min-height: 120px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #cfcfcf;
+}
+.student_answer .student_test_content_repeat_top{
+    width: 700px;
+    min-height: 30px;
+}
+.student_answer .student_test_content_repeat_top_question{
+    width: 700px;
+    min-height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.student_answer .student_test_content_repeat_4 .student_test_content_repeat_top_question{
+    width: 700px;
+}
+.student_answer .student_test_content_repeat_top_question div{
+    float: left;
+}
+.student_answer .student_test_content_repeat_1 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #209EEB;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_answer .student_test_content_repeat_2 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FECE7F;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_answer .student_test_content_repeat_3 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #FE97A3;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_answer .student_test_content_repeat_3 .student_test_content_repeat_top_question .three input{
+    min-width: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #5c5c5c;
+    padding: 0 40px;
+}
+.student_answer .student_test_content_repeat_4 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #84CCCA;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_answer .student_test_content_repeat_5 .student_test_content_repeat_top_question .two{
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #C477D5;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 10px;
+}
+.student_answer .student_test_content_repeat_top_question .three{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.student_answer .student_test_content_repeat_top_question .three img{
+    max-width: 300px;
+}
+.student_answer .student_test_content_repeat_top_question .four{
+    margin-left: 15px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    float: right;
+}
+.student_answer .student_test_content_repeat_cen{
+    width: 700px;
+    min-height: 160px;
+    margin: 0 auto;
+}
+.student_answer .student_test_content_repeat_5 .student_test_content_repeat_cen{
+    width: 700px;
+    min-height: 70px;
+    margin: 0 auto;
+}
+.student_answer .student_test_content_repeat_cen_answer{
+    width: 700px;
+    min-height: 40px;
+    line-height: 40px;
+}
+.student_answer .student_test_content_repeat_cen_answer input{
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 12px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.student_answer .student_test_content_repeat_cen_answer div{
+    float: left;
+}
+.student_answer .student_test_content_repeat_cen_answer .one{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 27px;
+}
+.student_answer .student_test_content_repeat_cen_answer .two{
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.student_answer .student_test_content_repeat_cen_answer .two img{
+    max-width: 300px;
+}
+.student_answer .has_choose{
+    background: url("/home/image/evaluateManageTea/haschoose.png") no-repeat;
+}
+.student_answer .no_choose{
+    background: url("/home/image/evaluateManageTea/nochoose.png") no-repeat;
+}
+/* ========= 解答题 ========= */
+.student_answer .student_test_content_repeat_4 .student_test_content_repeat_cen{
+    width: 700px;
+    min-height: 150px;
+}
+.student_answer .student_test_content_repeat_4 .student_test_content_repeat_cen div:first-child{
+    border-top: none;
+    word-wrap: break-word;
+}
+.student_answer .student_test_content_repeat_4 .student_test_content_repeat_cen_answer{
+    width: 700px;
+    min-height: 140px;
+    border-top: 2px dashed #cfcfcf;
+}
+.student_answer .student_test_content_repeat_4 .student_test_content_repeat_cen_answer_top{
+    width: 660px;
+    color: rgb(102, 102, 102);
+    margin-left: 70px;
+}
+.student_answer .student_test_content_repeat_4 .student_test_content_repeat_cen_answer_bot{
+    width: 405px;
+    min-height: 60px;
+    color: rgb(102, 102, 102);
+    margin-left: 83px;
+}
+.student_answer .student_test_content_repeat_4 .student_test_content_repeat_cen_answer_bot textarea{
+    width: 405px;
+    height: 60px;
+    resize: none;
+}
+.student_answer .student_test_content_repeat_1 .student_test_content_repeat_bot,
+.student_answer .student_test_content_repeat_2 .student_test_content_repeat_bot{
+    width: 700px;
+    min-height: 40px;
+    background-color: #F5F5F5;
+}
+.student_answer .student_test_content_repeat_3 .student_test_content_repeat_bot{
+    width: 700px;
+    min-height: 40px;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+}
+.student_answer .student_test_content_repeat_5 .student_test_content_repeat_bot{
+    width: 700px;
+    min-height: 40px;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+}
+.right_color{
+    color: rgb(97, 214, 97);
+}
+.false_color{
+    color: #FF7676;
+}
+.student_answer .student_test_content_repeat_bot_left{
+    width: 270px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    margin-left:30px;
+}
+.student_answer .student_test_content_repeat_bot_right{
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    float: right;
+}
+/* =================================== */
+.question_detail_score{
+    width: 660px;
+    height: 110px;
+    margin-left: 40px;
+}
+.question_detail_score_top{
+    width: 660px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+.question_detail_score_top input{
+    width: 88px;
+    height: 28px;
+}
+.question_detail_score_bot{
+    width: 560px;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+.question_detail_score_bot span{
+    display: block;
+    float: left;
+}
+.question_detail_score_bot textarea{
+    width: 360px;
+    height: 50px;
+    float: left;
+    resize: none;
+    margin-top: 5px;
+}
+/*===========================================select2==============================*/
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #209eea transparent transparent;
+    border-width: 9px 6px 0;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #209eea;
+    border-width: 0 6px 9px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: 5px;
+}
+
+/*          imgZoom            */
+.imgZoom {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10001;
+}
+
+.imgZoom img {
+    max-height: 95%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.imgZoom_close {
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 100012
+}
+
+.imgZoom_close:hover {
+    border-color: #B9E3FA;
+    color: #B9E3FA;
+}
+/* ===== 成绩提示框 start ===== */
+.notice{
+    width: 360px;
+    height: 220px;
+    background-color: #FFF;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -180px;
+    margin-top: -110px;
+}
+.notice .top{
+    width: 360px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+.notice .cen{
+    width: 360px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(103, 103, 103);
+    font-size: 16px;
+}
+.notice .bot{
+    width: 60px;
+    height: 30px;
+    background-color: #209EEA;
+    color: #FFF;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* ===== 成绩提示框 end ===== */
+/* ======= 测试报告 start ======= */
+.report{
+    width: 600px;
+    height: 520px;
+    background-color: #FFF;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -260px;
+}
+.report_top{
+    width: 600px;
+    height: 70px;
+}
+.report_top_close{
+    width: 600px;
+    height: 30px;
+}
+.report_top_close div{
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.report_top_title{
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+.report_center{
+    width: 440px;
+    height: 120px;
+    margin: 50px auto 0;
+}
+.report_center_right{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:2px solid #B3EB99;
+    float: left;
+}
+.report_center_error{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:2px solid #F2A3A5;
+    float: left;
+    margin-left: 30px;
+}
+.report_center_no_answer{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:2px solid #F9D335;
+    float: left;
+    margin-left: 30px;
+}
+.report_center_right_top,
+.report_center_error_top,
+.report_center_no_answer_top{
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin: 30px auto 0;
+}
+.report_center_right_bot,
+.report_center_error_bot,
+.report_center_no_answer_bot{
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin: 0 auto;
+}
+.report_tip{
+    width: 600px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
+.report_count{
+    width: 600px;
+    height: 40px;
+}
+.report_count_left{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    float: left;
+    margin-left: 90px;
+}
+.report_count_right{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    float: right;
+    margin-right: 30px;
+}
+.report_explain{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #209EEA;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.report_bot_tip{
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    text-align: center;
+}
+/* ======= 测试报告 end ======= */
+
+
+
+
+.zanwuwenda{
+    width:680px;
+    height:150px;
+    margin-left: 40px;
+    color:rgb(102,102,102);
+    font-size: 16px;
+    text-align: center;
+    /*background: #ccc;*/
+}
+
+
+.wodebiji{
+    width:680px;
+    height:150px;
+    margin-left: 40px;
+    color:rgb(102,102,102);
+    font-size: 16px;
+    text-align: center;
+}
+
+.gongxiangbiji{
+    width:680px;
+    height:150px;
+    margin-left: 40px;
+    color:rgb(102,102,102);
+    font-size: 16px;
+    text-align: center;
+}
+
+.timer{
+    width: 110px;
+    height: 25px;
+    position: fixed;
+    top: 300px;
+    right: 300px;
+    background-color: #FE7600;
+    color: white;
+    border-radius: 4px;
+}
+.timer .icon-clock{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 2px;
+    background: url("/home/image/evaluateManageStu/clock.png") no-repeat;
+}
+.timer .time_limit{
+    width: 85px;
+    height: 25px;
+    font-size: 12px;
+    float: right;
+    text-align: right;
+    line-height: 25px;
+    margin-right: 3px;
+}
+
+#myplayer_controlbar_hd{
+    width: 35px;
+}

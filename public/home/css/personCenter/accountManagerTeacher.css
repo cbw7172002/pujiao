@@ -1,0 +1,1330 @@
+.h5 {
+    width: 100%;
+    height: 5px;
+}
+
+.h10 {
+    width: 100%;
+    height: 10px;
+}
+
+.h20 {
+    width: 100%;
+    height: 20px;
+}
+
+.h30 {
+    width: 100%;
+    height: 30px;
+}
+
+.h40 {
+    width: 100%;
+    height: 40px;
+}
+
+.h50 {
+    width: 100%;
+    height: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1200px;
+    min-height: 1000px;
+    margin: 0 auto;
+    min-width: 1200px;
+}
+
+/*==================================================主体左边部分 开始========================================*/
+.center_left {
+    width: 26.6666667%;
+    min-height: 450px;
+    background: #fff;
+    float: left;
+    letter-spacing: 1px;
+}
+
+/*==============账号管理上方 头像部分 开始============*/
+.center_left .account_manager_top {
+    width: 100%;
+    height: 109px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.center_left .account_manager_top .account_manager_top_left {
+    width: 65px;
+    height: 65px;
+    float: left;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 25px 20px 0 48px;
+}
+
+.account_manager_top .account_manager_top_left img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+.account_manager_top .account_manager_top_right {
+    width: 58%;
+    height: 65px;
+    float: left;
+    margin-top: 25px;
+    float: right;
+}
+
+.account_manager_top .account_manager_top_right .account_manager_top_right_top {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    color: rgb(51, 51, 51);
+    margin-top: 10px;
+    float: left;
+}
+
+.account_manager_top .account_manager_top_right .account_manager_top_right_bottom {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #209EEA;
+    float: left;
+}
+
+/*==============账号管理上方 头像部分 结束============*/
+/*hover效果*/
+.center_left .account_manager {
+    width: 81.5%;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.active_hover {
+    background: #f5f5f5;
+}
+
+.center_left .span_hover {
+    width: 1.5%;
+    height: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.center_left .account_common {
+    width: 97.3%;
+    height: 50px;
+    color: rgb(102, 102, 102);
+    padding-left: 2.8%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.center_left .phone_width_diff {
+    width: 94.3%;
+    padding-left: 6.8%;
+}
+
+.center_left .blue_common {
+    background: #209EEA;
+    color: #fff;
+}
+
+.center_left .span_active {
+    background: #209EEA;
+    color: white;
+}
+
+/*==================================================主体左边部分 结束========================================*/
+
+/*==================================================主体右边 绑定学科 开始========================================*/
+.center_right {
+    width: 70%;
+    min-height: 620px;
+    background: #fff;
+    font-size: 18px;
+    float: right;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+.center_right .right_subject_top {
+    width: 100%;
+    height: 109px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.center_right .right_subject_top .right_top_bind_subject {
+    width: 68%;
+    height: 30px;
+    line-height: 30px;
+    margin: 40px 0 40px 60px;
+    float: left;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.center_right .right_subject_top .right_top_bind_button {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background: rgb(32, 158, 234);
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    margin: 40px 110px 40px 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    float: right;
+    cursor: pointer;
+}
+
+.center_right .bind_subject {
+    width: 100%;
+    min-height: 400px;
+}
+
+.center_right .bind_subject .bind_subject_content {
+    width: 71.4285%;
+    height: auto;
+    margin: 10px 120px;
+}
+
+.bind_subject .bind_subject_content .bind_subject_content_top {
+    width: 100%;
+    height: 57px;
+    line-height: 58px;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+.bind_subject_content .bind_subject_content_top ul li {
+    margin-left: 80px;
+    float: left;
+}
+
+.bind_subject_content .bind_subject_content_top ul li:first-child {
+    margin-left: 10px;
+    float: left;
+}
+
+.bind_subject_content .bind_subject_content_top .bind_subject_top_second {
+    margin-left: 60px;
+}
+
+.center_right .bind_subject .bind_subject_content_repeat {
+    width: 100%;
+    height: 47px;
+    line-height: 48px;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.center_right .bind_subject .bind_subject_content_repeat ul li {
+    float: left;
+    text-align: center;
+}
+.center_right .bind_subject .bind_subject_content_repeat ul li:first-child {
+    width: 50px;
+}
+.center_right .bind_subject .bind_subject_content_repeat .bind_subject_repeat_second {
+    width: 135px;
+}
+
+.center_right .bind_subject .bind_subject_content_repeat .bind_subject_repeat_third {
+    width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    word-wrap: normal;
+}
+
+.center_right .bind_subject .bind_subject_content_repeat .bind_subject_repeat_forth {
+    width: 130px;
+}
+
+.center_right .bind_subject .bind_subject_content_repeat .bind_subject_repeat_fifth {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    word-wrap: normal;
+}
+
+.center_right .bind_subject .bind_subject_content_repeat .bind_subject_repeat_sixth {
+    color: #209EEA;
+    width: 93px;
+    text-align: right;
+}
+
+.center_right .bind_subject .bind_subject_content_repeat .bind_subject_repeat_sixth span {
+    cursor: pointer;
+}
+
+/*==================================================主体右边部分 绑定学科结束========================================*/
+
+/*===============================================主体右边部分 添加任课结束=====================================================*/
+
+.bind_subject .bind_subject_content .add_course_content_top {
+    width: 100%;
+    height: 57px;
+    line-height: 58px;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+.bind_subject_content .add_course_content_top ul li {
+    margin-left: 107px;
+    float: left;
+}
+
+.bind_subject_content .add_course_content_top ul li:first-child {
+    margin-left: 10px;
+    float: left;
+}
+
+.center_right .bind_subject .add_course_content_repeat {
+    width: 100%;
+    height: 47px;
+    line-height: 48px;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.center_right .bind_subject .add_course_content_repeat ul li {
+    float: left;
+    text-align: center;
+}
+
+.center_right .bind_subject .add_course_content_repeat ul li:first-child {
+    width: 50px;
+}
+.center_right .bind_subject .add_course_content_repeat .bind_subject_repeat_third {
+    width: 138px;
+}
+
+.center_right .bind_subject .add_course_content_repeat .bind_subject_repeat_forth {
+    margin-left: 44px;
+    width:138px;
+}
+
+.center_right .bind_subject .add_course_content_repeat .bind_subject_repeat_fifth {
+    width: 125px;
+}
+
+.center_right .bind_subject .add_course_content_repeat .bind_subject_repeat_sixth {
+    width: 100px;
+    color: #209EEA;
+    text-align: right;
+}
+
+.center_right .bind_subject .add_course_content_repeat .bind_subject_repeat_sixth span {
+    cursor: pointer;
+}
+
+/*===============================================主体右边部分 添加任课结束=====================================================*/
+
+/*===============================================主体右边部分 密码修改开始=====================================================*/
+.center_right .right_password_top {
+    height: 109px;
+    line-height: 110px;
+    padding-left: 60px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.center_right .right_password_content {
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    float: left;
+}
+
+.center_right .right_password_content .password_content {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+}
+
+.right_password_content .password_content .password_content_input {
+    width: 324px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    margin-left: 260px;
+}
+
+.right_password_content .password_content .password_content_input input {
+    width: 310px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.right_password_content .password_content .password_content_message {
+    width: 230px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: brown;
+    float: left;
+    margin-left: 10px;
+}
+
+.center_right .right_password_content button {
+    width: 324px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 260px;
+    background: #209EEA;
+    float: left;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 30px;
+}
+
+/*===============================================主体右边部分 密码修改结束=====================================================*/
+
+/*===============================================主体右边部分 修改手机号开始=====================================================*/
+.center_right .right_phone_content {
+    width: 100%;
+    height: auto;
+}
+
+/*part1*/
+.center_right .right_phone_content .change_phone_part1 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.right_phone_content .change_phone_part1 .phone_number {
+    margin-left: 165px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+.right_phone_content .change_phone_part1 .phone_number span {
+    margin-left: 40px;
+}
+
+.right_phone_content .change_phone_part1 .phone_number span:first-child {
+    margin-left: 0;
+}
+
+.right_phone_content .change_phone_part1 .phone_button {
+    margin-left: 165px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #209EEA;
+    color: #ffffff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.right_phone_content .change_phone_part1 .phone_message {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 160px;
+    color: rgb(153, 153, 153);
+}
+
+/*part2*/
+.center_right .right_phone_content .change_phone_part2 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.right_phone_content .change_phone_part2 .change_phone_part2_switch {
+    width: 100%;
+    height: auto;
+}
+
+.change_phone_part2 .change_phone_part2_switch .phone_part2_switch_top {
+    height: 30px;
+    line-height: 30px;
+    margin: 0 132px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.change_phone_part2_switch .phone_part2_switch_top .part2_switch_top_item {
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 50px;
+    float: left;
+    color: rgb(102, 102, 102);
+}
+
+.change_phone_part2_switch .phone_part2_switch_top .part2_switch_top_item:first-child {
+    margin-left: 40px;
+}
+
+.change_phone_part2_switch .phone_part2_switch_top .part2_switch_top_item span {
+    font-size: 16px;
+}
+
+.change_phone_part2_switch .phone_part2_switch_top .part2_switch_top_item span:first-child {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    display: block;
+    float: left;
+    margin: 10px 10px 10px 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #5c5c5c;
+    color: #ffffff;
+}
+
+.phone_part2_switch_top .blue_common {
+    border-bottom: 2px solid #209EEA;
+}
+
+.phone_part2_switch_top .blue_common span {
+    color: #209EEA;
+}
+
+.change_phone_part2_switch .phone_part2_switch_top .blue_common span:first-child {
+    background: #209EEA;
+}
+
+/*绑定手机号切换部分*/
+.right_phone_content .change_phone_part2 .phone_part2_content {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.change_phone_part2 .phone_part2_content .phone_part2_content_top {
+    width: 324px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 258px;
+}
+
+.change_phone_part2 .phone_part2_content .phone_part2_content_top input {
+    width: 310px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.change_phone_part2 .phone_part2_content .phone_part2_content_message {
+    width: 324px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: brown;
+    margin-left: 258px;
+}
+
+.change_phone_part2 .phone_part2_content .phone_part2_content_middle {
+    width: 324px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 258px;
+}
+
+.change_phone_part2 .phone_part2_content .phone_part2_content_middle label input {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.change_phone_part2 .phone_part2_content .phone_part2_content_middle label span {
+    width: 105px;
+    height: 32px;
+    display: block;
+    float: right;
+    margin: 2px auto;
+    background: #f5f5f5;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+
+.change_phone_part2 .phone_part2_content .phone_next {
+    width: 324px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 258px;
+    background: #209EEA;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+
+.right_phone_content .phone_part2_content .phone_part2_bind_success {
+    margin-left: 332px;
+    margin-top: 150px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: rgb(102, 102, 102);
+}
+
+/*===============================================主体右边部分 修改手机号结束=====================================================*/
+
+/*===============================================主体右边部分 信息维护开始=====================================================*/
+.center_right .info_uphold {
+    width: 100%;
+    height: auto;
+}
+
+.info_uphold .info_uphold_img {
+    width: 87.5%;
+    height: auto;
+    margin: 55px 0 35px 107px;
+    float: left;
+}
+
+.info_uphold .info_uphold_img .info_uphold_img_left {
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgb(0,0,0);
+    float: left;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.info_uphold .info_uphold_img .info_uphold_img_right {
+    width: 290px;
+    height: auto;
+    float: left;
+    margin-left: 58px;
+}
+.info_uphold_img .info_uphold_img_right .img_right_image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin-left:6px;
+}
+.info_uphold_img .info_uphold_img_right .img_right_image img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+.info_uphold_img .info_uphold_img_right .upload_img_text {
+    width: 100%;
+    height: 25px;
+    line-height:25px;
+    font-size: 14px;
+    color: rgb(102,102,102);
+    margin-top:10px;
+    cursor: pointer;
+}
+
+.info_uphold .info_form_group{
+    clear:both;
+    width: 87.5%;
+    height: auto;
+    margin-left: 107px;
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+.info_uphold .info_form_group .form_group_label{
+    width: 12%;
+    float: left;
+    padding-top: 4px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.info_uphold .info_form_group .form_group_input{
+    width: 38.5%;
+    float: left;
+    color: rgb(102,102,102);
+}
+/*.info_uphold .info_form_group .form_group_input span{*/
+    /*padding-top:4px;*/
+    /*margin-left: 80px;*/
+    /*float: left;*/
+/*}*/
+.info_uphold .info_form_group .form_group_select{
+    width: 52.5%;
+    float: left;
+}
+
+.info_uphold .info_form_group .form_group_input input{
+    display: block;
+    width: 100%;
+    height: 14px;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.info_uphold .info_form_message{
+    clear: both;
+    width: 35.6%;
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    color: brown;
+    border-radius: 4px;
+    margin-left: 196px;
+}
+
+/*-----------------------textarea-----------------------*/
+.info_form_group .form_group_intro{
+    width:300px;
+    height:auto;
+    border: 1px solid rgb(183,183,183);
+    float:left;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.form_group_intro .form_group_intro_textarea{
+    width:294px;
+    height:170px;
+    padding: 3px;
+}
+.form_group_intro .form_group_intro_textarea textarea{
+    width:294px;
+    height:100%;
+    border: none;
+    resize: none;
+    line-height:20px;
+    color: #555;
+    font-size: 13px;
+    text-indent: 1em;
+    word-break: break-all;
+    padding: 0;
+}
+
+.info_form_group .form_group_intro .form_group_intro_bottom{
+    width:300px;
+    height:30px;
+    line-height:30px;
+    text-align: right;
+    font-size: 12px;
+}
+.info_uphold .info_form_button{
+    width: 50px;
+    height: 30px;
+    line-height:30px;
+    color: rgb(255,255,255);
+    background: #209EEA;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 195px;
+    margin-top: 78px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.info_uphold .info_form_group .form_radio_input{
+    width: 38.5%;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    color: rgb(102,102,102);
+}
+
+.form_radio_input .radio-inline {
+    width: 40px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.info_uphold .info_form_group .form_radio_input label:first-child{
+    margin-left: 0;
+}
+/*===============================================主体右边部分 信息维护结束=====================================================*/
+
+/*======= 遮罩层 =======*/
+.shadow {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #252525;
+    opacity: 0.7;
+    filter: alpha(opacity=80);
+    z-index: 1;
+}
+
+/*删除绑定学科弹出层*/
+.delete_subject {
+    width: 380px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 10px;
+    z-index:10002;
+}
+
+.delete_subject .top {
+    width: 160px;
+    height: 50px;
+    padding-left: 65px;
+    margin: 50px auto;
+    line-height: 50px;
+    font-size: 20px;
+    color: rgb(34, 34, 34);
+    background: url("/home/image/personCenter/warning.png") no-repeat;
+}
+
+.delete_subject .bot {
+    margin-top: -14px;
+}
+
+.delete_subject .bot span {
+    display: block;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.delete_subject .bot .quit {
+    margin-left: 95px;
+    background-color: rgb(217, 217, 217);
+}
+
+.delete_subject .bot .sure {
+    background-color: #209EEA;
+    margin-left: 50px;
+}
+
+
+/* ==== 绑定科目 弹窗===  && ============ 修改科目 ========== */
+.bind_subject_pop, .change_subject_pop, .change_course_pop {
+    width: 320px;
+    height: 240px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -120px;
+    background-color: white;
+    z-index: 2;
+}
+
+.bind_subject_pop .top_close, .add_course_pop .top_close , .change_subject_pop .top_close, .change_course_pop .top_close {
+    width: 100%;
+    height: 25px;
+}
+
+.bind_subject_pop .top_close span, .add_course_pop .top_close span, .change_subject_pop .top_close span, .change_course_pop .top_close span {
+    width: 30px;
+    height: 25px;
+    background: url("/home/image/personCenter/close_1.png") no-repeat center center;
+    float: right;
+    cursor: pointer;
+}
+
+.bind_subject_pop .top, .change_subject_pop .top, .change_course_pop .top {
+    width: 210px;
+    height: 145px;
+    margin: 0 55px 20px;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+}
+
+.bind_subject_pop .bot, .add_course_pop .bot, .change_subject_pop .bot, .change_course_pop .bot{
+    width: 210px;
+    height: 30px;
+    margin: 0 55px 20px;
+    line-height: 30px;
+}
+
+.bind_subject_pop .bot span, .add_course_pop .bot span, .change_subject_pop .bot span, .change_course_pop .bot span{
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    float: right;
+    color: #f5f5f5;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.bind_subject_pop .bot span:first-child, .add_course_pop .bot span:first-child, .change_subject_pop .bot span:first-child, .change_course_pop .bot span:first-child{
+    float:left;
+}
+.bind_subject_pop .bot .quit, .add_course_pop .bot .quit, .change_subject_pop .bot .quit, .change_course_pop .bot .quit{
+    background-color: #999999;
+}
+
+.bind_subject_pop .bot .sure,
+.add_course_pop .bot .sure,
+.change_subject_pop .bot .sure,
+.change_course_pop .bot .sure
+{
+    background-color: #209EEA;
+}
+
+/*===========添加任课 弹窗 开始 ==============*/
+.add_course_pop, .change_course_pop {
+    width: 320px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -100px;
+    background-color: white;
+    z-index: 2;
+}
+
+.add_course_pop .top, .change_course_pop .top {
+    width: 210px;
+    height: 105px;
+    margin: 0 55px 20px;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+}
+
+/*===========添加任课 弹窗 结束==============*/
+
+/*===============================================  资源转码中弹窗提示   ===================================================*/
+.warning_resource {
+    width: 350px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 4px;
+    z-index: 10002;
+}
+.warning_resource .top_title {
+    text-align: center;
+    height: 45px;
+    line-height:45px;
+    font-size: 18px;
+    color: rgb(34,34,34);
+    position: relative;
+    background: url(/home/image/personCenter/res_close.png) #DFDFDF no-repeat 318px 14px;
+}
+.warning_resource .top_title span {
+    width: 45px;
+    height: 45px;
+    top: 0;
+    right: 0;
+    z-index: 10003;
+    position: absolute;
+    cursor: pointer;
+}
+.warning_resource .middle_content {
+    text-indent: 2em;
+    height: auto;
+    line-height:30px;
+    font-size: 16px;
+    padding: 20px;
+    color: #444;
+}
+.warning_resource .bot_button {
+    text-align: center;
+    height: 30px;
+    line-height:30px;
+    font-size: 14px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.warning_resource .bot_button span{
+    display: block;
+    background-color: #209EEA;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+/*===============================================  资源转码中弹窗提示 over ===================================================*/
+
+
+/*-- --- 上传头像弹出层 --- --*/
+.headImg {
+    width: 630px;
+    height: 470px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    margin-top: -315px;
+    margin-left: -235px;
+    background: #F2F8FC;
+
+    /*border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*-webkit-border-radius: 5px;*/
+}
+
+.headImg_tit {
+    width: 100%;
+    height: 30px;
+    background: #209EEA;
+}
+
+.headImg_tit_l {
+    width: 100px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    text-indent: 7px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.headImg_tit_r {
+    width: 24px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    color:#ffffff;
+    text-align: center;
+    line-height: 30px;
+    font-size:20px;
+}
+
+.headImg_tit_r img {
+    margin-top: 4px;
+}
+
+.headImg_con {
+    width: 100%;
+    height: 400px;
+}
+
+.headImg_con_l {
+    width: 490px;
+    height: 400px;
+    float: left;
+    /*background:#dddddd;                       !*tmp*!*/
+}
+
+.headImg_con_r {
+    width: 140px;
+    height: 400px;
+    /*background:#ffffff;*/
+    float: right;
+}
+
+.headImg_con_r_yl {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    text-indent: 18px;
+}
+
+.headImg_con_r_preview_s {
+    width: 140px;
+    height: 60px;
+    padding-left: 40px;
+}
+
+.headImg_con_r_preview_s2 {
+    width: 140px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.headImg_con_r_preview_s_info {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#imgs {
+    width: 480px;
+    height: 330px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-align: center;
+    /*background:#dddddd;                        !*tmp*!*/
+    background: #ffffff;
+}
+
+.headImg_foot {
+    width: 100%;
+    height: 40px;
+    background: #B2DBF2;
+}
+
+.headImg_foot_selImg {
+    width: 330px;
+    height: 40px;
+    float: left;
+    margin-left: 50px;
+}
+
+.headImg_foot_cutImg {
+    width: 125px;
+    height: 40px;
+    float: left;
+}
+
+.sel_btn {
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: #F4F4F4;
+    margin-top: 7px;
+    cursor: pointer;
+    border: 1px solid #A09A96;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#file_upload {
+    position: relative;
+    top: -30px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#SWFUpload_0_0 {
+    /*margin-top: 10px;*/
+    position: relative;
+    top: -130px;
+}
+
+#SWFUpload_0_1 {
+    /*margin-top: 10px;*/
+    position: relative;
+    top: -130px;
+}
+
+#SWFUpload_0_2 {
+    /*margin-top: 10px;*/
+    position: relative;
+    top: -130px;
+}
+
+#SWFUpload_0_3 {
+    /*margin-top: 10px;*/
+    position: relative;
+    top: -130px;
+}
+
+/*-- --- 上传头像弹出层 结束 --- --*/
+
+
+.infoMsg {
+    width  : 100%;
+    height : 30px;
+    line-height: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+    background: rgb(185,185,185);
+}
+.infoMsg_success{
+    background: limegreen !important;
+}
+.infoMsg_error{
+    background: darkred !important;
+}
+
+/*无数据时候warning*/
+.warningMsg {
+    width: 100%;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    color: grey;
+    font-size: 16px;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 0px auto;
+}
+
+/*      loading      */
+
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.spinner > div {
+    background-color: #2CAEFC;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+
+    -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+    animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+       }
+}
+
+/*===========================================select2==============================*/
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #209eea transparent transparent;
+    border-width: 9px 6px 0;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #209eea;
+    border-width: 0 6px 9px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: 5px;
+}

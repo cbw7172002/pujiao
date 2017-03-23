@@ -1,0 +1,595 @@
+.none{
+    display: none;
+}
+
+
+/*顶端图*/
+/*.top_img{*/
+    /*width:1200px;*/
+    /*min-height:200px;*/
+    /*margin: 0 auto;*/
+    /*background: url("/home/image/lessonSubject/list/gaoxiaokecheng.png") no-repeat;*/
+/*}*/
+
+.contain_lesson_top_bk{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    max-height: 200px;
+    background: url("/home/image/resource/bar.png") no-repeat;
+    background-color: #5c5c5c;
+}
+.contain_lesson_top_bk .title{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+.contain_lesson_top_bk .title i{
+    width: 36px;
+    height: 36px;
+    display: block;
+    background: url("/home/image/evaluateManageTea/search.png") no-repeat;
+    float: left;
+}
+.contain_lesson_top_bk .search{
+    width: 500px;
+    height: 40px;
+    margin: 15px auto;
+}
+.contain_lesson_top_bk .search input{
+    width: 430px;
+    height: 38px;
+    border: none;
+    float: left;
+    font-size: 14px;
+    text-indent: 10px;
+    font-family: "微软雅黑";
+}
+.contain_lesson_top_bk .search span{
+    width: 68px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    background-color: rgb(32, 153, 234);
+    display: block;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.content{
+    width:1200px;
+    min-height:200px;
+    margin: 0 auto;
+}
+
+/*左部分*/
+.content_left{
+    width:280px;
+    min-height:240px;
+    float: left;
+    background: #FFFFFF;
+}
+
+/*课程选项背景*/
+.course_back{
+    width:280px;
+    height:60px;
+    font-size: 18px;
+    text-align: center;
+    line-height:60px;
+    cursor:pointer;
+    font-family:"微软雅黑";
+}
+
+/*hover效果*/
+.active_hover {
+    background: #f5f5f5;
+}
+
+.span_hover {
+    width: 2%;
+    height: 60px;
+    display: inline-block;
+    float: left;
+}
+
+.span_active{
+    background: #209EEA;
+    color:rgb(255,255,255);
+}
+
+/*右部分*/
+.content_right_mycourse{
+    width:880px;
+    min-height:200px;
+    float: right;
+    background: #FFFFFF;
+}
+.content_right_reccourse{
+    width:880px;
+    min-height:200px;
+    float: right;
+    background: #FFFFFF;
+}
+.content_right_allcourse{
+    width:880px;
+    min-height:200px;
+    float: right;
+    background: #FFFFFF;
+}
+.content_right_newcourse{
+    width:880px;
+    min-height:200px;
+    float: right;
+    background: #FFFFFF;
+}
+.content_right_papercourse{
+    width:880px;
+    min-height:200px;
+    float: right;
+    background: #FFFFFF;
+}
+
+
+
+
+/*已发布 待发布 ..*/
+.mycourse_select{
+    width:880px;
+    height:58px;
+    background: #FFFFFF;
+}
+.mycourse_selects{
+    width:880px;
+    height:58px;
+    background: #FFFFFF;
+}
+
+.release{
+    width:50px;
+    height:58px;
+    float: left;
+    line-height: 58px;
+    font-size: 16px;
+    margin-left: 40px;
+    color:rgb(102,102,102);
+    /*text-align: center;*/
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+/*字体颜色*/
+.color_blue{
+    color:#53AFF0;
+}
+.color_gray{
+    color:rgb(102,102,102);
+}
+
+.release:nth-child(2){
+    margin-left:0px;
+}
+
+
+.mycourse_select_content{
+    width:840px;
+    min-height:142px;
+    float: right;
+    background: #FFFFFF;
+}
+
+.mycourse_select_content_every{
+    width:840px;
+    height:130px;
+    border-top: 1px solid #F5F5F5 ;
+    background: #FFFFFF;
+}
+
+.noticeMsgMy{
+    width:880px;
+    min-height:200px;
+    float: right;
+    background: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    line-height:200px;
+    color: rgb(102,102,102);
+}
+.noticeMsgRec{
+    width:880px;
+    min-height:200px;
+    float: right;
+    background: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    line-height:200px;
+    color: rgb(102,102,102);
+}
+.noticeMsgAll{
+    width:880px;
+    min-height:200px;
+    float: right;
+    background: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    line-height:200px;
+    color: rgb(102,102,102);
+}
+
+/*详情*/
+.every_details{
+    width:840px;
+    height:90px;
+    margin-top: 19px;
+    background: #FFFFFF;
+}
+
+.every_details_img{
+    width:120px;
+    height:90px;
+    float: left;
+    cursor: pointer;
+}
+.every_details_content{
+    width:580px;
+    height:90px;
+    float: left;
+    margin-left: 20px;
+    /*background: #eee;*/
+}
+.every_details_content_name{
+    width:580px;
+    height:16px;
+    font-size: 16px;
+    line-height:16px;
+    cursor: pointer;
+}
+.every_details_content_name .content_name_first {
+    float: left;
+    width: initial;
+    max-width: 490px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    color: rgb(51, 51, 51);
+}
+.every_details_content_name .content_name_second {
+    float: left;
+    width: 70px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #26b6fc;
+}
+
+.every_details_content_title{
+    width:580px;
+    height:14px;
+    font-size: 14px;
+    line-height:14px;
+    color:rgb(102,102,102);
+    cursor: pointer;
+}
+.every_details_content_time{
+    width:580px;
+    height:12px;
+    font-size: 12px;
+    line-height:12px;
+    margin-top: 3px;
+    color:rgb(153,153,153);
+}
+/*作者 时间*/
+.every_details_content_time_author{
+    width:170px;
+    height:12px;
+    font-size: 12px;
+    line-height:12px;
+    float: left;
+    color:rgb(153,153,153);
+}
+.every_details_content_time_time{
+    width:170px;
+    height:12px;
+    font-size: 12px;
+    line-height:12px;
+    float: left;
+    color:rgb(153,153,153);
+}
+/*按钮*/
+.every_details_button{
+    width:120px;
+    height:90px;
+    float: left;
+    /*background: #eee;*/
+}
+.every_details_button_img_del{
+    width:80px;
+    height:28px;
+    line-height:28px;
+    text-align: center;
+    margin-top: 20px;
+    color:#ffffff;
+    background: #999999;
+    cursor: pointer;
+}
+.every_details_button_img_edit{
+    width:80px;
+    height:28px;
+    line-height:28px;
+    text-align: center;
+    margin-top: 8px;
+    color:#ffffff;
+    background: #209EEA;
+    cursor: pointer;
+}
+/*学习收藏*/
+.every_details_learn_collection{
+    width:176px;
+    height:12px;
+    float: left;
+    margin-left: 665px;
+    /*background: #ccc;*/
+}
+.every_details_learn{
+    width:88px;
+    height:12px;
+    float: left;
+    line-height: 12px;
+    font-size: 12px;
+    color:rgb(153,153,153);
+}
+.every_details_collection{
+    width:88px;
+    height:12px;
+    float: left;
+    line-height: 12px;
+    font-size: 12px;
+    color:rgb(153,153,153);
+}
+
+
+/*更多选项*/
+.more_option{
+    width:840px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    color:rgb(153,153,153);
+    font-size:14px;
+    cursor: pointer;
+}
+/*收起*/
+.stop_option{
+    width:840px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    color:rgb(153,153,153);
+    font-size:14px;
+    cursor: pointer;
+}
+
+/*全部课程筛选*/
+.mycourse_screen{
+    width:880px;
+    min-height:150px;
+    background: #ffffff;
+}
+
+.mycourse_screen_sum{
+    width:100%;
+    min-height:45px;
+}
+
+.mycourse_screen_sum_title{
+    width: 75px;
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+    font-size: 16px;
+    color: rgb(51,51,51);
+    float: left;
+}
+.mycourse_screen_sum_sel{
+    width: 730px;
+    min-height: 45px;
+    float: left;
+}
+.mycourse_screen_sum_flag{
+    width: 70px;
+    height: 45px;
+    float: right;
+    cursor: pointer;
+}
+.mycourse_screen_every{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+.mycourse_screen_every1{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+.mycourse_screen_every2{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+.mycourse_screen_every3{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+.mycourse_screen_every4{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+
+/*全部颜色*/
+.all_grade{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+.all_subject{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+.all_book{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+.all_edition{
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 20px;
+    float: left;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    cursor: pointer;
+}
+
+/*热门-最新*/
+.hot_new{
+    width:105px;
+    height:58px;
+    float: right;
+}
+
+.hot_new_blue{
+    color: rgb(32, 158, 234);
+}
+
+.hot_new_hot{
+    width:30px;
+    height:58px;
+    line-height: 58px;
+    float: left;
+    cursor: pointer;
+}
+.huaxian{
+    width:8px;
+    height:58px;
+    line-height: 58px;
+    float: left;
+}
+.hot_new_new{
+    width:30px;
+    height:58px;
+    line-height: 58px;
+    float: left;
+    cursor: pointer;
+}
+
+
+/*===============================================  资源转码中弹窗提示   ===================================================*/
+.warning_resource {
+    width: 350px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 4px;
+    z-index: 10002;
+}
+.warning_resource .top_title {
+    text-align: center;
+    height: 45px;
+    line-height:45px;
+    font-size: 18px;
+    color: rgb(34,34,34);
+    position: relative;
+    background: url(/home/image/personCenter/res_close.png) #DFDFDF no-repeat 318px 14px;
+}
+.warning_resource .top_title span {
+    width: 45px;
+    height: 45px;
+    top: 0;
+    right: 0;
+    z-index: 10003;
+    position: absolute;
+    cursor: pointer;
+}
+.warning_resource .middle_content {
+    text-indent: 2em;
+    height: auto;
+    line-height:30px;
+    font-size: 16px;
+    padding: 20px;
+    color: #444;
+}
+.warning_resource .bot_button {
+    text-align: center;
+    height: 30px;
+    line-height:30px;
+    font-size: 14px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.warning_resource .bot_button span{
+    display: block;
+    background-color: #209EEA;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+/*===============================================  资源转码中弹窗提示 over ===================================================*/

@@ -1,0 +1,832 @@
+/* ============== bar ================*/
+.contain_resource {
+    width: 1200px;
+    min-height: 1000px;
+    margin: 0 auto;
+}
+.contain_resource_location{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    font-size: 14px;
+    color:rgb(153,153,153);
+}
+.whole{
+    width:65px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    float:right;
+    margin-right:410px;
+    cursor: pointer;
+}
+.whole a{
+    color:#2FA5E2;
+}
+/*左部*/
+.contain_resource_left{
+    width:800px;
+    /*height:200px;*/
+    height:auto;
+    float: left;
+}
+.contain_resource_left_player{
+    width:100%;
+    height:480px;
+    background: grey;
+}
+.contain_resource_left_resinfo{
+    width:100%;
+    /*height:auto;*/
+    background: #ffffff;
+}
+.contain_resource_left_resinfo_top{
+    width:100%;
+    height:75px;
+}
+.contain_resource_left_resinfo_top_li{
+    width:135px;
+    height:75px;
+    line-height: 75px;
+    text-align: center;
+    color:rgb(51,51,51);
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+}
+.contain_resource_left_resinfo_intruction{
+    width:100px;
+    height:auto;
+}
+.contain_resource_left_resinfo_intruction_t{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    font-size: 16px;
+    color:rgb(51,51,51);
+    text-indent: 35px;
+}
+.contain_resource_left_resinfo_intruction_con{
+    width:675px;
+    height:auto;
+    margin:0px 55px 0px 70px;
+}
+
+.contain_resource_left_resinfo_intruction_restitle{
+    width:100%;
+    height:25px;
+    font-size: 14px;
+    color:rgb(102,102,102);
+}
+.contain_resource_left_resinfo_intruction_li{
+    width:100%;
+    height:35px;
+    line-height:35px;
+    font-size: 14px;
+    color:rgb(102,102,102);
+}
+.contain_resource_left_resinfo_intruction_li span{
+    color:rgb(153,153,153);
+}
+.contain_resource_left_resinfo_intruction_li_l{
+    width:100px;
+    height:35px;
+    line-height: 35px;
+    color:rgb(153,153,153);
+    float: left;
+}
+.contain_resource_left_resinfo_intruction_li_r{
+    width:100px;
+    height:35px;
+    line-height: 35px;
+    color:rgb(153,153,153);
+    float: right;
+}
+.contain_resource_left_resinfo_intruction_li_r{
+    width:100px;
+    height:35px;
+    line-height: 35px;
+    color:rgb(153,153,153);
+    float: right;
+    text-indent: 10px;
+    margin-left:20px;
+}
+.contain_resource_left_resinfo_intruction_con_des{
+    color:rgb(102,102,102);
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 25px;
+    padding-bottom: 40px;
+    /*background: red;*/
+}
+.resdescribe_msg{
+    width:100%;
+    height:80px;
+    line-height: 80px;
+    text-indent: 60px;
+    font-size: 16px;
+    /*background: yellow;*/
+    color: grey;
+}
+
+/*----------------------------------评论--------------------------------*/
+.contain_lessonDetail_bot_left_tip{
+    width: 760px;
+    height: 60px;
+    margin: 20px auto;
+    border-bottom: 2px solid #f5f5f5;
+
+}
+.contain_lessonDetail_bot_left_tip .left,
+.contain_lessonDetail_bot_left_tip .center,
+.contain_lessonDetail_bot_left_tip .right{
+    width: 145px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.contain_lessonDetail_bot_left_tip .left span,
+.contain_lessonDetail_bot_left_tip .center span,
+.contain_lessonDetail_bot_left_tip .right span{
+    font-size:20px;
+}
+.contain_lessonDetail_bot_left_tip .left span:hover,
+.contain_lessonDetail_bot_left_tip .center span:hover,
+.contain_lessonDetail_bot_left_tip .right span:hover{
+    color: rgb(32, 158, 234);
+}
+.active{
+    border-bottom: 2px solid #209eea;
+}
+.light{
+    color: #209eea;
+}
+.contain_lessonDetail_bot_left_desc{
+    width: 94%;
+    min-height: 210px;
+    margin: 40px auto;
+}
+.contain_lessonDetail_bot_left_desc .top{
+    display: block;
+    margin: 0 auto;
+    width:85%;
+    height: 21px;
+    line-height: 21px;
+    font-size: 18px;
+    color: rgb(34,34,34);
+    background: url("/home/image/lessonSubject/detail/circle.png") no-repeat;
+    padding-left: 20px;
+}
+.contain_lessonDetail_bot_left_desc .content{
+    display: block;
+    margin: 10px 10px 00px 65px;
+    width: 653px;
+    min-height: 170px;
+    line-height: 30px;
+    font-size:16px;
+    color: rgb(102,102,102);
+    letter-spacing:1.5px;
+    font-weight:normal;
+}
+.contain_lessonDetail_bot_left_list{
+    width: 94%;
+    height: auto;
+    margin: 0 auto;
+}
+.contain_lessonDetail_bot_left_list .top{
+    display: block;
+    margin: 0 auto;
+    width:85%;
+    height: 21px;
+    line-height: 21px;
+    font-size: 18px;
+    color: rgb(34,34,34);
+    background: url("/home/image/lessonSubject/detail/circle.png") no-repeat;
+    padding-left: 20px;
+}
+.contain_lessonDetail_bot_left_info{
+    width: 95%;
+    height: auto;
+    margin: 15px auto;
+}
+.contain_lessonDetail_bot_left_info .title{
+    display: block;
+    width: 628px;
+    height: 53px;
+    line-height: 53px;
+    background-color: #f5f5f5;
+    margin-left: 45px;
+    padding-left: 25px;
+    font-size:16px;
+}
+.contain_lessonDetail_bot_left_info_div div:first-child{
+    border: none;
+}
+.contain_lessonDetail_bot_left_info .data{
+    width: 600px;
+    height: 48px;
+    border-top: 2px solid #f5f5f5;
+    margin: 0 auto;
+    font-size:16px;
+
+}
+.contain_lessonDetail_bot_left_info span{
+
+}
+.contain_lessonDetail_bot_left_info .data_content{
+    color: rgb(102,102,102);
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    margin-left:20px;
+    margin-top: 13px;
+    cursor: pointer;
+    float: left;
+    margin-right: 30px;
+}
+.contain_lessonDetail_bot_left_info .try{
+    display: block;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    margin-top: 9px;
+    background-color: red;
+    font-size:16px;
+    color: white;
+    text-align: center;
+}
+.contain_lessonDetail_bot_left_info .center{
+    display: block;
+    width: 30px;
+    height: 25px;
+    float: left;
+    margin-top: 9px;
+}
+.contain_lessonDetail_bot_left_info .have{
+    display: block;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    margin-top: 9px;
+    background-color: #209EEA;
+    font-size:16px;
+    color: white;
+    text-align: center;
+}
+.contain_lessonDetail_bot_left_info .play{
+    display: block;
+    background: url("/home/image/lessonSubject/detail/start.png") no-repeat right;
+    width: 20px;
+    height: 18px;
+    line-height: 18px;
+    float: right;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.contain_lessonDetail_bot_left_info .spot{
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: #209eea;
+    margin-top: 19px;
+    border-radius: 5px;
+    float: left;
+}
+.contain_lessonDetail_bot_right{
+    float: right;
+    width: 360px;
+    min-height: 780px;
+}
+.contain_lessonDetail_bot_right_teacher{
+    width: 360px;
+    min-height: 460px;
+    background-color: #ffffff;
+}
+.contain_lessonDetail_bot_right_teacher .teacher{
+    display: block;
+    width: 320px;
+    height: 35px;
+    line-height: 25px;
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+    color: rgb(34,34,34);
+    font-size:20px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.contain_lessonDetail_bot_right_teacher .photo{
+    width: 85px;
+    height: 85px;
+    border-radius: 45px;
+    margin-left: 42px;
+    margin-top:15px;
+    float: left;
+    overflow: hidden;
+}
+.contain_lessonDetail_bot_right_teacher .desc{
+    width: 180px;
+    height: 90px;
+    margin-left: 40px;
+    margin-top:15px;
+    float: right;
+}
+.contain_lessonDetail_bot_right_teacher .desc .name{
+    display: block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    font-size:18px;
+    color: rgb(34,34,34);
+}
+.contain_lessonDetail_bot_right_teacher .desc .school{
+    display: block;
+    width: 150px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+    color: rgb(102,102,102);
+}
+.contain_lessonDetail_bot_right_teacher .content{
+    width: 290px;
+    min-height: 230px;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(102,102,102);
+    line-height: 30px;
+    text-indent: 2em;
+    margin-left: 40px;
+    margin-top:10px;
+    padding-bottom: 10px;
+    word-break: break-all;
+}
+.contain_lessonDetail_bot_right_notice{
+    margin-top: 40px;
+    width: 360px;
+    min-height: 280px;
+    background-color: #ffffff;
+}
+.contain_lessonDetail_bot_right_notice .notice_tip{
+    display: block;
+    width: 320px;
+    height: 35px;
+    line-height: 25px;
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+    color: rgb(34,34,34);
+    font-size:20px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.contain_lessonDetail_bot_right_notice .notice{
+    width: 320px;
+    min-height: 200px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-indent: 2em;
+    display: block;
+    font-size: 16px;
+    color: rgb(102,102,102);
+    text-align: left;
+    word-break: break-all;
+}
+
+
+.contain_lessonDetail_bot_left_comment{
+    width: 725px;
+    height: 150px;
+    margin: 0 auto;
+
+}
+
+.contain_lessonDetail_bot_left_comment textarea{
+    background-color: rgb(245,245,245);
+    border: 0;
+    width: 725px;
+    height: 142px;
+    resize: vertical;
+    padding-top: 8px;
+    font-size: 18px;
+    position: relative;
+    white-space: pre-line;
+}
+.contain_lessonDetail_bot_left_comment span{
+    background-color: #E8E8E8;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+    color: rgb(0,0,0);
+    cursor: pointer;
+}
+.first_not div:first-child{
+    border: 0;
+}
+.first_not{
+    /*min-height: 800px;*/
+}
+.contain_lessonDetail_bot_left_comment_content{
+    width: 735px;
+    min-height: 150px;
+    margin-left: 30px;
+    margin-right:0px;
+    border-top: 2px solid #f5f5f5;
+}
+.contain_lessonDetail_bot_left_comment_content .photo{
+    width: 70px;
+    height: 70px;
+    border-radius: 42.5px;
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+}
+.contain_lessonDetail_bot_left_comment_content .right{
+    width: 640px;
+    min-height: 150px;
+    float: right;
+}
+.contain_lessonDetail_bot_left_comment_content .right .top{
+    width: 615px;
+    height: 30px;
+    margin-left:25px;
+    margin-top: 5px;
+}
+.contain_lessonDetail_bot_left_comment_content .right .top span:first-child{
+    font-size: 16px;
+    color: #666666;
+    width: 140px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 5px;
+    display: block;
+    float: left;
+}
+.contain_lessonDetail_bot_left_comment_content .right .top .time{
+    font-size:14px;
+    color: rgb(102, 102, 102);
+    text-align: right;
+    float: right;
+    /*margin-right: 20px;*/
+    width: 80px;
+    height: 15px;
+    line-height: 15px;
+    margin-top:5px;
+    display: block;
+}
+.contain_lessonDetail_bot_left_comment_content .right .center{
+    font-size: 16px;
+    color: #222222;
+    width: 630px;
+    min-height: 70px;
+    margin-top: 15px;
+    margin-left: 25px;
+    letter-spacing:1px;
+}
+.contain_lessonDetail_bot_left_comment_content .right .center .touser{
+    width: 100px;
+    height: 22px;
+    line-height: 22px;
+    color: #209EEA;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.contain_lessonDetail_bot_left_comment_content .right .center .content{
+    line-height: 22px;
+    width: 550px;
+    min-height: 50px;
+    word-wrap:break-word;
+}
+.contain_lessonDetail_bot_left_comment_content .right .bot{
+    width: 350px;
+    height: 15px;
+    line-height:15px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.contain_lessonDetail_bot_left_comment_content .right .bot span{
+    display: block;
+    color: rgb(102,102,102);
+    font-size: 14px;
+    float: right;
+    margin-left: 45px;
+    cursor: pointer;
+    text-align: right;
+}
+.contain_lessonDetail_bot_left_comment_content .right .bot .first{
+    width: 40px;
+}
+.contain_lessonDetail_bot_left_comment_content .right .bot .second{
+    width: 80px;
+}
+.contain_lessonDetail_bot_left_comment_content .right .bot .third{
+    width: 40px;
+}
+.contain_lessonDetail_bot_left_comment_content .right .bot span:hover{
+    color: #209EEA;
+}
+.contain_lessonDetail_bot_left_comment_content .right .bot .no_hover{
+    width: 80px;
+}
+.contain_lessonDetail_bot_left_comment_content .right .bot .no_hover:hover{
+    color: rgb(102,102,102);
+}
+
+
+
+.contain_lessonDetail_bot_left_download{
+    width: 94%;
+    height: auto;
+    margin: 40px auto;
+}
+.contain_lessonDetail_bot_left_download .top{
+    display: block;
+    margin: 0 auto;
+    width:85%;
+    height: 21px;
+    line-height: 21px;
+    font-size: 18px;
+    color: rgb(34,34,34);
+    background: url("/home/image/lessonSubject/detail/circle.png") no-repeat;
+    padding-left: 20px;
+}
+.teacherHomepage_detail_content_applyTip {
+    width: 180px;
+    height: 45px;
+    position: relative;
+    top: -30px;
+    left: 148px;
+    float: right;
+    z-index: 99999;
+    background-image: url("/home/image/lessonComment/commentDetail/bg.png") no-repeat;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    display: none;
+    cursor: pointer;
+}
+/*----------------------------------评论--------------------------------*/
+
+/*右部*/
+.contain_resource_right{
+    width: 360px;
+    min-height:800px;
+    float: right;
+    background: #ffffff;
+}
+.contain_resource_right_t{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    text-indent: 40px;
+    font-size: 16px;
+    color:rgb(51,51,51);
+}
+.relation_msg{
+    width:100%;
+    height:300px;
+    line-height: 300px;
+    text-indent: 60px;
+    font-size: 16px;
+    /*background: red;*/
+    color: grey;
+}
+.contain_resource_right_li{
+    width:280px;
+    height:63px;
+    margin: 20px 40px 0px 40px;
+}
+.contain_resource_right_li_pic{
+    width:84px;
+    height:63px;
+    float: left;
+}
+.contain_resource_right_li_info{
+    width:195px;
+    height:63px;
+    float: right;
+}
+.contain_resource_right_li_info_top{
+    width:100%;
+    height:31px;
+    line-height: 31px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:rgb(51,51,51);
+    font-size: 16px;
+    text-indent: 30px;
+}
+.contain_resource_right_li_info_fot{
+    width:100%;
+    height:31px;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:rgb(153,153,153);
+    font-size: 14px;
+    text-indent: 30px;
+}
+.comment_msg{
+    color: grey;
+    font-size: 18px;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    width: 800px;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #252525;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+    z-index: 10001;
+}
+
+.comment_textarea {
+    width: 87%;
+    max-width: 87%;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    background: #E5E5E5;
+    border: none;
+    border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+    padding: 5px 12px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+.comment_textarea_nologin {
+    line-height: 150px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.comment_textarea_nologin a:hover {
+    text-decoration: none;
+}
+
+/* ==== 删除评论 === */
+.delete_comment{
+    z-index: 10002;
+    width: 380px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.delete_comment .top{
+    width: 160px;
+    height: 50px;
+    padding-left: 65px;
+    margin: 50px auto;
+    line-height: 50px;
+    font-size: 20px;
+    color: rgb(34,34,34);
+    background: url("/home/image/lessonSubject/detail/warning.png") no-repeat;
+}
+.delete_comment .bot{
+    margin-top: -14px;
+}
+.delete_comment .bot span{
+    display: block;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.delete_comment .bot .quit{
+    margin-left:95px;
+    background-color: rgb(217,217,217);
+}
+.delete_comment .bot .sure{
+    display: block;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    color: #f5f5f5;
+    cursor: pointer;
+    background-color: #209EEA;
+    margin-left:50px;
+}
+
+
+
+
+
+
+
+
+.havea{
+    cursor: pointer;
+    background: url('/home/image/resource/havea.png') no-repeat 75px 7px;;
+}
+.haveb{
+    cursor: pointer;
+    background: url('/home/image/resource/haveb.png') no-repeat 75px 7px;;
+}
+.download{
+    cursor: pointer;
+    background: url('/home/image/resource/down.png') no-repeat 75px 7px;;
+}
+
+
+.down{
+    background: url('/home/image/resource/more3.png') no-repeat 55px 12px;;
+
+}
+.up{
+    background: url('/home/image/resource/up3.png') no-repeat 55px 12px;;
+
+}
+
+.exl{
+    background:url("/home/image/resource/exl.png") no-repeat ;
+}
+.pdf{
+    background:url("/home/image/resource/pdf.png") no-repeat ;
+}
+.photo{
+    background:url("/home/image/resource/photo.png") no-repeat ;
+}
+.ppt{
+    background:url("/home/image/resource/ppt.png") no-repeat ;
+}
+.video{
+    background:url("/home/image/resource/video.png") no-repeat ;
+}.word{
+     background:url("/home/image/resource/word.png") no-repeat ;
+ }
+
+.sel{
+    color:#27A1EC;
+}
+
+#myplayer_controlbar_hd{
+    width: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

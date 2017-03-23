@@ -1,0 +1,134 @@
+.cont{
+    width:100%;
+    /*min-width: 1200px;*/
+    /*min-height:1200px;*/
+    background:#F5F5F5;
+}
+.dh{
+    width:1200px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    color:rgb(173,173,173);
+    margin:0 auto;
+}
+.cont_con{
+    width:1200px;
+    height:auto;
+    margin:0 auto;
+    background:#ffffff;
+}
+@media screen and (max-width: 1200px) {
+    .cont_con{
+        width:1200px;
+        min-height:1400px;
+        /*height:auto;*/
+        margin:0 auto;
+        background:#ffffff;
+    }
+}
+.cont_con_con{
+    width:1050px;
+    /*height:500px;*/
+    height:auto;
+    margin:0 auto;
+    /*background: #dddddd;                         !*tmp*!*/
+}
+.cont_con_con_t{
+    width:1050px;
+    height:65px;
+    border: none;
+    border-bottom:1px solid #EEEEEE;
+}
+.cont_con_con_t_li{
+    width:auto;
+    height:65px;
+    line-height:65px;
+    font-size:20px;
+    color:#000000;
+    /*font-weight: bold;*/
+    float:left;
+    padding:0 10px;
+    cursor: pointer;
+}
+.sel{
+    color:#2CA1EA;
+    height:64px;
+    line-height:64px;
+    border-bottom:3px solid #2CA1EA;
+}
+
+.cont_con_con_con{
+    width:1050px;
+    height:auto;
+}
+.Msg{
+    width: 1050px;
+    height:400px;
+    line-height:400px;
+    font-size:20px;
+    color: grey;
+    /*text-align: center;*/
+    text-indent:200px;
+}
+.cont_con_con_con_li{
+    width:1050px;
+    height:265px;
+    border:none;
+    border-bottom:1px solid #EEEEEE;
+}
+.cont_con_con_con_li_l{
+    width:420px;
+    height:235px;
+    border:1px solid #EEEEEE;
+    float:left;
+}
+.cont_con_con_con_li_l img{
+    width:100%;
+    height:100%;
+}
+.cont_con_con_con_li_r{
+    width:525px;
+    height:235px;
+    float:right;
+}
+.cont_con_con_con_li_r_t{
+    width:525px;
+    height:78px;
+    line-height:78px;
+    /*font-weight:bold;*/
+    font-size:20px;
+    color:rgb(22,22,22);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cont_con_con_con_li_r_time{
+    width:525px;
+    height:78px;
+    line-height:78px;
+    /*font-weight:bold;*/
+    font-size:18px;
+    color:rgb(66,66,66);
+}
+.cont_con_con_con_li_r_from{
+    width:525px;
+    height:78px;
+    line-height:78px;
+    /*font-weight:bold;*/
+    font-size:18px;
+    /*color:rgb(102,102,102);*/
+    color:rgb(66,66,66);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.pagecon{
+    width:1200px;
+    height:35px;
+    margin: 0 auto;
+    text-align: center;
+}

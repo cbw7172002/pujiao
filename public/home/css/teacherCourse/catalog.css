@@ -1,0 +1,825 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.none{
+    display: none;
+}
+
+/*面包屑导航*/
+.crumbs{
+    width:1200px;
+    height:35px;
+    margin: 0 auto;
+}
+
+.crumbs_title{
+    width:145px;
+    height:16px;
+
+}
+.crumbs_course{
+    min-width:10px;
+    height:16px;
+    color:rgb(173,173,173);
+    font-size: 14px;
+    line-height: 16px;
+    float: left;
+}
+
+.gray{
+    background: #ebf2fa;
+}
+
+
+/*主体内容*/
+.main{
+    width:1200px;
+    min-height:600px;
+    margin: 0 auto;
+}
+
+
+/*左部分*/
+.main_left{
+    width:800px;
+    min-height:490px;
+    float: left;
+    /*background: #eee;*/
+}
+.main_left_top{
+    width:800px;
+    min-height:40px;
+}
+.main_left_top div:first-child{
+    background-color: #FFFFFF;
+}
+.main_left_top_select{
+    width:800px;
+    min-height:40px;
+}
+
+.top_video1{
+    width:800px;
+    height:40px;
+    float: left;
+    background: #ffffff;
+    cursor: pointer;
+}
+.top_video2{
+    width:400px;
+    height:40px;
+    float: left;
+    background: #ffffff;
+    cursor: pointer;
+}
+.top_video3{
+    width:266px;
+    height:40px;
+    float: left;
+    background: #ffffff;
+    cursor: pointer;
+}
+/*.top_document{*/
+/*width:400px;*/
+/*height:40px;*/
+/*float: left;*/
+/*cursor: pointer;*/
+/*}*/
+
+.top_document_img{
+    width:25px;
+    height:25px;
+    margin: 0 auto;
+    position: relative;
+    top:8px;
+    /*left:193px;*/
+}
+
+
+.blue{
+    color: #00A0EC;
+}
+
+.video_document{
+    width:800px;
+    height:450px;
+    position: relative;
+    /*background: url('/home/image/teacherCourse/shipin.png') no-repeat ;*/
+}
+
+.video_browse{
+    width:800px;
+    height:450px;
+}
+.document_browse{
+    width:800px;
+    height:450px;
+}
+
+
+
+
+.blue{
+    color: #00A0EC;
+}
+
+.gray_bac{
+    background: #eee;
+}
+
+
+/*右部分*/
+.main_right{
+    width:360px;
+    min-height:600px;
+    float: right;
+    background: #ffffff;
+}
+.main_right_top{
+    width:360px;
+    height:60px;
+    border-bottom: 1px solid #ccc;
+}
+/*目录 笔记 问答 div*/
+.right_top_catalog{
+    width:80px;
+    height:35px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius:5%
+}
+.right_top_note{
+    width:80px;
+    height:35px;
+    float: left;
+    margin-left: 42px;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius:5%
+}
+.right_top_answers{
+    width:80px;
+    height:35px;
+    float: left;
+    margin-left: 42px;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius:5%
+}
+/*div灰色背景*/
+.div_back{
+    background: #999999;
+}
+.catalog_img{
+    width:25px;
+    height:25px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: url("/home/image/teacherCourse/detail/mulu.png") no-repeat;
+}
+.catalog_img_bai{
+    width:25px;
+    height:25px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: url("/home/image/teacherCourse/detail/mulubai.png") no-repeat;
+}
+.note_img{
+    width:25px;
+    height:25px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: url("/home/image/teacherCourse/detail/tieshi3.png") no-repeat;
+}
+.note_img_bai{
+    width:25px;
+    height:25px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: url("/home/image/teacherCourse/detail/tieshi2.png") no-repeat;
+}
+.answer_img{
+    width:25px;
+    height:25px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: url("/home/image/teacherCourse/detail/wenda.png") no-repeat;
+}
+.answer_img_bai{
+    width:25px;
+    height:25px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: url("/home/image/teacherCourse/detail/wendabai.png") no-repeat;
+}
+
+.catalog_name{
+    width:40px;
+    height:25px;
+    font-size: 16px;
+    line-height:25px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.catalog_name_bai{
+    width:40px;
+    height:25px;
+    font-size: 16px;
+    line-height:25px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    color:rgb(255,255,255);
+}
+
+.note_name{
+    width:40px;
+    height:25px;
+    font-size: 16px;
+    line-height:25px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.note_name_bai{
+    width:40px;
+    height:25px;
+    font-size: 16px;
+    line-height:25px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    color:rgb(255,255,255);
+}
+
+.answer_name{
+    width:40px;
+    height:25px;
+    font-size: 16px;
+    line-height:25px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.answer_name_bai{
+    width:40px;
+    height:25px;
+    font-size: 16px;
+    line-height:25px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    color:rgb(255,255,255);
+}
+
+
+
+
+
+/*目录内容css*/
+.catalog_content{
+    width:360px;
+    min-height:540px;
+    /*float: left;*/
+    /*margin-left: 30px;*/
+}
+
+.catalog_content_every{
+    width:360px;
+    min-height:60px;
+    /*background: #ccc;*/
+}
+
+.catalog_content_every_title{
+    width:330px;
+    min-height:34px;
+    float: left;
+    margin-left: 30px;
+}
+
+
+.every_number{
+    width:16px;
+    height:16px;
+    line-height: 16px;
+    color:rgb(255,255,255);
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    background: #D6D6D6;
+}
+.every_title{
+    width:160px;
+    height:16px;
+    line-height: 16px;
+    font-size: 16px;
+    color:rgb(51,51,51);
+    float: left;
+    margin-left: 5px;
+}
+/*链接标题*/
+.catalog_content_every_name{
+    width:360px;
+    height:24px;
+    font-size: 14px;
+    color:rgb(102,102,102);
+    line-height:24px;
+}
+.every_name_sum{
+    margin-left: 51px;
+}
+.every_name_sum_name{
+    width:140px;
+    height:24px;
+    float: left;
+    font-size:14px;
+    cursor: pointer;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+/*下标*/
+.subscript{
+    width:40px;
+    height:24px;
+    float: left;
+    cursor: pointer;
+}
+
+/*文件视频*/
+.every_name_sum_wenjian{
+    width:24px;
+    height:24px;
+    float: right;
+    margin-right: 10px;
+    background: url("/home/image/teacherCourse/detail/wenjian.png") no-repeat;
+}
+.every_name_sum_shipin{
+    width:24px;
+    height:24px;
+    float: right;
+    margin-right: 10px;
+    background: url("/home/image/teacherCourse/detail/shipin.png") no-repeat;
+}
+
+
+
+
+/*笔记内容*/
+.note_content{
+    width:360px;
+    min-height:540px;
+}
+
+/*非视频格式课件暂不支持添加贴士*/
+.note_content_novideo{
+    width:360px;
+    height:540px;
+    line-height: 450px;
+    text-align: center;
+    color:#7C7C7C;
+}
+
+.note_content_teacher{
+    width:360px;
+    height:540px;
+    line-height: 450px;
+    text-align: center;
+    color:#7C7C7C;
+}
+
+
+.note_sum{
+    width:360px;
+    height:50px;
+}
+
+.my_note{
+    width:60px;
+    height:20px;
+    line-height:20px;
+    font-size: 14px;
+    margin-left: 53px;
+    margin-top: 13px;
+    float: left;
+    /*color:rgb(102,102,102);*/
+    cursor: pointer;
+}
+.share_note{
+    width:60px;
+    height:20px;
+    line-height:20px;
+    font-size: 14px;
+    margin-left: 127px;
+    margin-top: 13px;
+    float: left;
+    /*color:rgb(102,102,102);*/
+    cursor: pointer;
+}
+.min_height{
+    width:360px;
+    height:400px;
+    overflow-y:auto;
+}
+
+/*我的笔记内容*/
+.my_note_content{
+    width:300px;
+    min-height:76px;
+    /*overflow-y:auto;*/
+}
+/*共享笔记内容*/
+.share_note_content{
+    width:300px;
+    min-height:76px;
+}
+
+
+.note_area{
+    width:300px;
+    height:98px;
+    margin-left: 30px;
+}
+.note_area textarea{
+    width:300px;
+    height:98px;
+    resize:none;
+}
+.note_areass1{
+    width:300px;
+    min-height:98px;
+}
+.note_areass2{
+    width:300px;
+    min-height:98px;
+}
+/*修改框*/
+
+.note_areas{
+    width:300px;
+    height:98px;
+    /*margin-left: 30px;*/
+}
+.note_areas textarea{
+    width:300px;
+    height:98px;
+    resize:none;
+}
+
+/*私密  保存*/
+.private_confirm{
+    width:302px;
+    height:50px;
+    margin-left: 30px;
+    /*background: #eee;*/
+}
+.private{
+    width:50px;
+    height:14px;
+    padding-top: 16px;
+}
+.private_checkbox{
+    width:15px;
+    height:14px;
+    float: left;
+    margin-top: -1px;
+}
+.private_name{
+    width:30px;
+    height:14px;
+    line-height: 14px;
+    font-size: 14px;
+    color:rgb(153,153,153);
+    float: left;
+    margin-left:5px;
+}
+
+/*保存*/
+.confirm{
+    width:40px;
+    height:24px;
+    line-height:24px;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    position: relative;
+    top:-18px;
+    cursor: pointer;
+    color:rgb(255,255,255);
+    background: #00A0EC;
+}
+/*问答内容发布按钮*/
+.confirms{
+    width:40px;
+    height:24px;
+    line-height:24px;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    position: relative;
+    top:16px;
+    cursor: pointer;
+    color:rgb(255,255,255);
+    background: #00A0EC;
+}
+
+
+/*评论内容div*/
+.note_comment_content{
+    width:300px;
+    min-height:10px;
+    margin-left: 30px;
+    /*overflow:auto;*/
+}
+
+
+.note_comment_content_sum{
+    width:300px;
+    height:36px;
+}
+.content_sum_img{
+    width:36px;
+    height:36px;
+    float: left;
+}
+.content_sum_img img{
+    border-radius:50%;
+}
+.content_sum_name{
+    min-width:20px;
+    height:36px;
+    line-height: 36px;
+    font-size: 14px;
+    color:#00A0E8;
+    float: left;
+    margin-left: 8px;
+}
+
+.content_sum_time{
+    min-width:36px;
+    height:36px;
+    line-height: 36px;
+    font-size: 14px;
+    color:rgb(102,102,102);
+    float: left;
+    /*float: left;*/
+    margin-left: 55px;
+}
+.content_sum_time_note{
+    min-width:36px;
+    height:36px;
+    line-height: 36px;
+    font-size: 14px;
+    color:rgb(102,102,102);
+    float: left;
+    /*float: left;*/
+    margin-left: 150px;
+}
+
+
+.note_comment_content_detail{
+    width:290px;
+    /*min-height:100px;*/
+    min-height:20px;
+    line-height: 24px;
+    font-size: 12px;
+    color:rgb(153,153,153);
+    margin-left: 10px;
+    text-indent:2em;
+    white-space:normal;
+    word-break:break-all;
+    /*background: #ccc;*/
+}
+
+/*查看更多*/
+.check_more{
+    width:60px;
+    height:16px;
+    line-height:16px;
+    font-size: 14px;
+    margin-left: 150px;
+    color:rgb(0,160,234);
+}
+
+
+
+
+
+/*问答内容*/
+.answer_comment{
+    width:260px;
+    min-height:0px;
+    line-height: 24px;
+    font-size: 12px;
+    color:rgb(153,153,153);
+    margin-left: 46px;
+    /*text-indent:2em;*/
+}
+
+.question_answer{
+    width:300px;
+    min-height:10px;
+}
+
+.content_sum_answer{
+    min-width:20px;
+    height:36px;
+    line-height: 36px;
+    font-size: 14px;
+    color:#00A0E8;
+    float: left;
+    margin-left: 15px;
+}
+
+
+
+/*查看更多*/
+.gengduo{
+    width:360px;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    color:#00A0E8;
+    /*position:fixed;*/
+    /*bottom:0;*/
+}
+
+.course_question_tea_huifu{
+    width:30px;
+    height:36px;
+    float: left;
+    margin-left: 10px;
+    color:#209eea;
+    font-size:14px;
+    line-height:36px;
+    cursor: pointer;
+}
+
+
+
+
+.bianse{
+    width:360px;
+    height:24px;
+    font-size: 14px;
+    color:rgb(102,102,102);
+    line-height:24px;
+}
+
+
+
+
+
+
+/*************************贴士**************************/
+.prompt{
+    width:300px;
+    height:14px;
+    color:rgb(0,160,234);
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+/*修改 删除*/
+.edit_delete{
+    width:55px;
+    height:20px;
+    /*background: #ccc;*/
+    float: right;
+}
+.edit_deletes{
+    width:30px;
+    height:20px;
+    margin-top: 10px;
+    /*background: #ccc;*/
+    margin-left: 265px;
+    color:rgb(0,160,234);
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.edit_edit{
+    width:33px;
+    height:20px;
+    float: left;
+    cursor: pointer;
+}
+.delete_delete{
+    width:20px;
+    height:20px;
+    float: left;
+    cursor: pointer;
+}
+
+.content_sum_img_tieshi{
+    width:25px;
+    height:25px;
+    float: left;
+    margin-top: 5px;
+}
+
+
+
+/*知识点贴士弹出框*/
+.tips_popup{
+    width:350px;
+    height:240px;
+    position: relative;
+    top:-340px;
+    left:240px;
+    z-index:10;
+    background: #ffffff;
+}
+.tips_popup_up{
+    width:350px;
+    height:40px;
+    color:rgb(51,51,51);
+    font-size: 16px;
+    text-align: center;
+    line-height:40px;
+    background: #dfdfdf;
+}
+
+.guanbi{
+    width:20px;
+    height:20px;
+    position: relative;
+    top:-35px;
+    left:320px;
+    cursor: pointer;
+}
+
+.tips_popup_down{
+    width:350px;
+    height:200px;
+}
+
+.tips_popup_content{
+    width:350px;
+    height:100px;
+}
+
+
+.textarea_div{
+    width:285px;
+    height:100px;
+    margin-left: 30px;
+    line-height: 28px;
+    text-indent: 2em;
+    font-size: 16px;
+    color:rgb(51,51,51);
+}
+
+.tips_popup_button{
+    width:350px;
+    height:70px;
+}
+
+.tips_popup_button_button{
+    width:60px;
+    height:28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+    color:rgb(255,255,255);
+    position: relative;
+    left:145px;
+    cursor: pointer;
+    background: dodgerblue;
+}
+
+
+
+.wodetieshi{
+    width:302px;
+    height:20px;
+    margin-left: 30px;
+    /*background: #ccc;*/
+    color:rgb(102,102,102);
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.wodewenda{
+    width:302px;
+    height:20px;
+    margin-left: 30px;
+    /*background: #ccc;*/
+    color:rgb(102,102,102);
+    font-size: 14px;
+    text-align: center;
+}
+
+#myplayer_controlbar_hd{
+    width: 35px;
+}

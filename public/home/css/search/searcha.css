@@ -1,0 +1,253 @@
+.body{
+    background: #ffffff;
+}
+.con{
+    width:100%;
+    /*min-height: 1500px;*/
+    height:auto;
+}
+@media screen and (max-width: 1200px) {
+    /*body {*/
+    /*background-color:lightblue;*/
+    /*}*/
+    .con{
+        width:100%;
+        min-height: 1500px;
+    }
+}
+.con_top{
+    width:100%;
+    height:193px;
+    background:#F8F8F8;
+}
+.con_top_con{
+    width:1200px;
+    height:193px;
+    margin:0 auto;
+    /*background:#ffffff;                  !*tmp*!*/
+}
+.con_top_con_t{
+    width:100%;
+    height:85px;
+    line-height:80px;
+    /*font-weight: bold;*/
+    font-size:22px;
+    line-height:85px;
+}
+.con_top_con_sbar{
+    width:1196px;
+    height:50px;
+    border:2px solid #ECE8ED;
+    background: #ffffff;
+}
+.con_top_con_sbar_l{
+    width:165px;
+    height:50px;
+    float: left;
+}
+.con_top_con_sbar_m{
+    width:900px;
+    height:50px;
+    float: left;
+    overflow: hidden;
+    font-family: 微软雅黑;
+}
+.con_top_con_sbar_m .txt{
+    width:900px;
+    height:48px;
+    line-height:48px;
+    text-indent:20px;
+    font-size:18px;
+    border:none;
+}
+.con_top_con_sbar_r{
+    width:122px;
+    height:50px;
+    float: right;
+}
+.con_top_con_sbar_r button{
+    width:124px;
+    height:50px;
+    text-align: center;
+    line-height:50px;
+    color:#ffffff;
+    background:#209EEA;
+    border:none;
+    cursor: pointer;
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+
+.con_con{
+    width:1200px;
+    /*height:500px;             !*tmp*!*/
+    /*background:#dddddd;       !*tmp*!*/
+    margin:0 auto;
+}
+.con_con_top{
+    width:1200px;
+    height:54px;
+    background:#F8F8F8;
+    /*font-weight: bold;*/
+    letter-spacing:2px;
+}
+.con_con_top_l{
+    width:50%;
+    height:54px;
+    line-height:54px;
+    font-size: 18px;
+    color:#ADADAC;
+    text-indent:20px;
+    float: left;
+}
+.gl{
+    color:rgb(32,158,234);
+}
+.con_con_top_r{
+    width:50%;
+    height:54px;
+    line-height:54px;
+    font-size: 18px;
+    color:#ADADAC;
+    text-align: right;
+    float: right;
+}
+.con_con_top_r span {
+    cursor: pointer;
+}
+.con_con_con{
+    width:1200px;
+    height:auto;
+    /*height:800px;                !*tmp*!*/
+    /*background: #dddddd;*/
+}
+
+
+/*课程*/
+.recommend_con_con_li{
+    width:280px;
+    height:285px;
+    float: left;
+    margin:0 10px 52px;
+    /*background: gray;*/
+}
+
+.contain_lesson_center_data_info_top {
+    width: 280px;
+    height: 180px;
+    position: relative;
+    /*background: url("./img/2.jpg") no-repeat;*/
+    overflow: hidden;
+}
+
+.img_big {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.contain_lesson_center_data_info_bot {
+    width: 278px;
+    height: 104px;
+    background-color: white;
+    border:1px solid #F5F5F5;
+}
+
+.contain_lesson_center_data_info_bot .top {
+    display: block;
+    width: 95%;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-left: 10px;
+
+    font-size: 16px;
+    /*font-weight: bold;*/
+    font-family: 微软雅黑;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.contain_lesson_center_data_info_bot .center {
+    width: 100%;
+    height: 25px;
+}
+
+.contain_lesson_center_data_info_bot .center .right {
+    display: block;
+    float: right;
+    height: 25px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #999999;
+    margin-right: 23px;
+    padding-left: 35px;
+    line-height:25px;
+}
+
+.contain_lesson_center_data_info_bot .center .left {
+    display: block;
+    float: left;
+    height: 25px;
+    font-size: 14px;
+    color: #999999;
+    font-family: 微软雅黑;
+    margin-left: 8px;
+    padding-left: 25px;
+    text-align: left;
+    line-height:25px;
+}
+.contain_lesson_center_data_info_bot .center .leftt {
+    display: block;
+    float: left;
+    height: 25px;
+    font-size: 14px;
+    color: #999999;
+    font-family: 微软雅黑;
+    margin-left: 8px;
+    padding-left: 5px;
+    text-align: left;
+    line-height:25px;
+}
+.classes{
+    background: url("/home/image/index/classes.png") no-repeat 0 2px;
+}
+.study{
+    background: url("/home/image/index/study.png") no-repeat 0 2px;
+}
+
+.contain_lesson_center_data_info_bot .bot {
+    display: block;
+    width: 95%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    color: #FF0000;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    /*font-weight: 600;*/
+}
+
+
+/*搜索无*/
+.serno{
+    width:100%;
+    height:400px;
+    text-align: center;
+    line-height:80px;
+    font-size:20px;
+    color:rgb(102,102,102);
+    /*background:#F8F8F8;*/
+}
+
+.page{
+    width:100%;
+    height:30px;
+    text-align: center;
+    margin-bottom:30px;
+}

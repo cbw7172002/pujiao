@@ -1,0 +1,105 @@
+/**
+ * Created by Mr.H on 2017/1/23.
+ */
+define([], function () {
+    var scoreQuery = avalon.define({
+        $id: 'scoreQueryController',
+        paperId: '', // 试卷ID
+		classId: '', // 班级ID
+        title: '', // 试卷Title
+        subjectId: '', // 科目ID
+        message: ' 没有此类题型数据', // 科目ID
+		messages: ' 还没有学生答题', // 科目ID
+        all: [],
+        q1: [],
+        q2: [],
+        q3: [],
+        q4: [],
+        q5: [],
+        request: function (url, data, callback) {
+            $.ajax({
+                url: url,
+                dataType: 'json',
+                type: ('function' !== typeof data) ? 'POST' : 'GET',
+                data: ('function' !== typeof data) ? data : null,
+                success: function (response) {
+                    if (response.type) {
+                        ('function' === typeof data) ? data(null, response.data) : callback(null, response.data);
+                    } else {
+                        callback(new Error('请求失败'));
+                    }
+                },
+                error: callback
+            });
+        },
+        goinfo: function (pid,userid,id) {
+			if (id == null || id == undefined) {
+				location.href = "/evaluateManageTea/testPaperTea/" + pid;
+			}else{
+				location.href = "/evaluateManageStu/studentTestPaperStu/" + pid + '/' + userid;
+			}
+        },
+        // 选项切换
+        changeValue: 'alls',
+        changeOption: function (value) {
+            scoreQuery.changeValue = value;
+            switch(value){
+                case 'alls':
+                    scoreQuery.request('/evaluateManageTea/getAllScore',{ id:scoreQuery.paperId,classid:scoreQuery.classId },function (err, res) {
+                        if (!err) {
+                            scoreQuery.all = res;
+                        }
+                    });
+                    break;
+                case 'q1s':
+                    scoreQuery.request('/evaluateManageTea/getqScore',{ id:scoreQuery.paperId,type:1,classid:scoreQuery.classId },function (err, res) {
+                        if (!err) {
+                            scoreQuery.q1 = res;
+							
+                        }
+                    });
+                    break;
+                case 'q2s':
+                    scoreQuery.request('/evaluateManageTea/getqScore',{ id:scoreQuery.paperId,type:2,classid:scoreQuery.classId},function (err, res) {
+                        if (!err) {
+                            console.log(res);
+                            scoreQuery.q2 = res;
+
+                        }
+                    });
+                    break;
+                case 'q3s':
+                    scoreQuery.request('/evaluateManageTea/getqScore',{ id:scoreQuery.paperId,type:3,classid:scoreQuery.classId  },function (err, res) {
+                        if (!err) {
+                            scoreQuery.q3 = res;
+                        }
+                    });
+                    break;
+                case 'q4s':
+                    scoreQuery.request('/evaluateManageTea/getqScore',{ id:scoreQuery.paperId,type:4,classid:scoreQuery.classId  },function (err, res) {
+                        if (!err) {
+                            scoreQuery.q4 = res;
+                        }
+                    });
+                    break;
+                case 'q5s':
+                    scoreQuery.request('/evaluateManageTea/getq5Score',{ id:scoreQuery.paperId,type:5,classid:scoreQuery.classId },function (err, res) {
+                        if (!err) {
+                            scoreQuery.q5 = res;
+                        }
+                    });
+                    break;
+            }
+        }
+    });
+
+    avalon.directive("changed", {
+        update: function () {
+            var elem = this.element
+            avalon(elem).bind("click", function () {
+                $(this).addClass('actives').siblings('li').removeClass('actives');
+            })
+        }
+    });
+    return scoreQuery;
+})

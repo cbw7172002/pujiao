@@ -1,0 +1,20 @@
+{
+    "name": "primecloud/weixin",
+    "description": "",
+    "authors": [
+        {
+            "name": "kailovelee",
+            "email": "kailovelee@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Primecloud\\Weixin\\": "src/Primecloud/Weixin"
+        }
+    },
+    "minimum-stability": "dev"
+}

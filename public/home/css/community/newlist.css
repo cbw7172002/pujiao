@@ -1,0 +1,112 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration:none;
+}
+.background{
+	width:100%;
+	/*height:1200px;*/
+	background: #FFFFFF;
+	height:auto;
+}
+
+
+
+@media screen and (max-width:1200px) {
+	.screen1200 {
+		width: 100%;
+		height: 400px;
+		background: none;
+		clear: both;
+	}
+}
+
+
+/*主体div*/
+.main{
+	width:1200px;
+	/*height:1000px;*/
+	height:auto;
+	/*background: #eee;*/
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+
+/*面包屑*/
+.crumbs{
+	width:200px;
+	height:20px;
+	/*background: #ccc;*/
+}
+
+.crumbs a{
+	font-size:14px;
+	font-weight:bold;
+	/*color:#B0B0B0;*/
+	color:rgb(173,173,173);
+}
+.crumbs span{
+	/*color:#B0B0B0;*/
+	color:rgb(173,173,173);
+	font-weight:bold;
+	font-size:14px;
+}
+
+/*列表*/
+.list{
+	width:1200px;
+	height:600px;
+	border: 2px solid #E2E2E2;
+	/*background: #eee;*/
+}
+/*每一行*/
+.list_line{
+	width:1200px;
+	height:60px;
+	/*background: #eee;*/
+}
+.title_time{
+	width:1141px;
+	height:60px;
+	margin:0 auto;
+	border-bottom: 2px solid #E2E2E2;
+	/*background: #ccc;*/
+}
+/*title*/
+.title{
+	width:580px;
+	height:22px;
+	float: left;
+	margin-top: 22px;
+	margin-left: 20px;
+	color:rgb(102,102,102);
+	font-size:16px;
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.title a{
+	color:#545454;
+}
+.time{
+	width:110px;
+	height:20px;
+	font-size:16px;
+	color:rgb(84,84,84);
+	float: right;
+	margin-top: 22px;
+	margin-right:50px; 
+	/*background: green;*/
+}
+
+
+.pagecon{
+	width:1200px;
+	height:35px;
+	margin: 0 auto;
+	text-align: center;
+}

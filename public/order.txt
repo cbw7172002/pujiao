@@ -1,0 +1,13 @@
+Missing argument 2 for Primecloud\Weixin\Kernel\WxPayApi::notify(), called in D:\www\QinSheng\app\Http\Controllers\Home\lessonComment\buyCommentController.php on line 67 and defined ---------- 报错 ----------- 
+Missing argument 2 for Primecloud\Weixin\Kernel\WxPayApi::notify(), called in D:\www\QinSheng\app\Http\Controllers\Home\lessonComment\buyCommentController.php on line 67 and defined ---------- 报错 ----------- 
+Missing argument 2 for Primecloud\Weixin\Kernel\WxPayApi::notify(), called in D:\www\QinSheng\app\Http\Controllers\Home\lessonComment\buyCommentController.php on line 67 and defined ---------- 报错 ----------- 
+Missing argument 2 for Primecloud\Weixin\Kernel\WxPayApi::notify(), called in D:\www\QinSheng\app\Http\Controllers\Home\lessonComment\buyCommentController.php on line 67 and defined ---------- 报错 ----------- 
+Undefined index: HTTP_RAW_POST_DATA ---------- 报错 ----------- 
+Undefined index: HTTP_RAW_POST_DATA ---------- 报错 ----------- 
+Undefined index: HTTP_RAW_POST_DATA - try catch errors - 2016-07-21 17:27:25 - 
+Undefined index: HTTP_RAW_POST_DATA - try catch errors - 2016-07-21 17:27:44 - 
+Undefined index: HTTP_RAW_POST_DATA - try catch errors - 2016-07-21 17:27:45 - 
+Undefined index: HTTP_RAW_POST_DATA - try catch errors - 2016-07-21 17:27:45 - 
+Undefined index: HTTP_RAW_POST_DATA - try catch errors - 2016-07-21 17:27:45 - 
+Undefined index: HTTP_RAW_POST_DATA - try catch errors - 2016-07-21 17:27:45 - 
+Undefined index: HTTP_RAW_POST_DATA - try catch errors - 2016-07-21 17:27:46 - 
